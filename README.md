@@ -22,7 +22,7 @@ In terminal: `node testnode.js`
 
 1. `git clone https://github.com/atabegruslan/ReactJS-Flux-Redux.git`
 
-2. `npm install`
+2. `cd ReactJS-Flux-Redux` and `npm install`
 
 3. Transpile:  `npm run transpile` or  `npm run watch` (`npm run watch` is a `package.json` script equivalent of `webpack --watch`, but for non-globally installed `npm install webpack --save-dev`)
 
