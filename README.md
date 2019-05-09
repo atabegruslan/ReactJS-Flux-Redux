@@ -28,7 +28,7 @@ In terminal: `node testnode.js`
 
 4. Serve: `npm run serve`
 
-5. In browser: open: `http://127.0.0.1:8081/flux/` or `http://127.0.0.1:8081/react/`
+5. In browser: open: `http://127.0.0.1:8081/flux/` or `http://127.0.0.1:8081/react/` or `http://127.0.0.1:8081/redux/`
 
 6. To stop this server process and free up the port, press `Cntr + C`, or find and delete the process:
 
