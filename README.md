@@ -24,15 +24,38 @@ In terminal: `node testnode.js`
 
 2. `cd ReactJS-Flux-Redux` and `npm install`
 
-3. Transpile:  `npm run transpile` or  `npm run watch` (`npm run watch` is a `package.json` script equivalent of `webpack --watch`, but for non-globally installed `npm install webpack --save-dev`)
+3. Setup Mongo Database (See below)
 
-4. Serve: `npm run serve`
+4. Transpile:  `npm run transpile` or  `npm run watch` (`npm run watch` is a `package.json` script equivalent of `webpack --watch`, but for non-globally installed `npm install webpack --save-dev`)
 
-5. In browser: open: `http://127.0.0.1:8081/flux/` or `http://127.0.0.1:8081/react/` or `http://127.0.0.1:8081/redux/`
+5. Backend: `npm run start`
 
-6. To stop this server process and free up the port, press `Cntr + C`, or find and delete the process:
+6. Serve: `npm run serve`
+
+7. In browser: open: `http://127.0.0.1:8081/flux/` or `http://127.0.0.1:8081/react/` or `http://127.0.0.1:8081/redux/`
+
+8. To stop this server process and free up the port, press `Cntr + C`, or find and delete the process:
 
 ![Stop Webpack Dev Server](https://raw.githubusercontent.com/atabegruslan/ReactJS-Flux-Redux/master/Illustrations/Stop-webpack-dev-server.PNG "Stop Webpack Dev Server")
+
+### Setup Mongo Database
+
+1. Install mongo
+2. In directories: create 'C:/data/db'
+3. Start mongo database server: In 'C:/data/' directory, give this command: `mongod --dbpath .` in the command line. Keep this terminal open.
+
+```
+$mongo
+>use tripadvisor
+>db.createCollection("destination")
+>db.createCollection("rating")
+
+>db.destination.insert({"destination" : "Istanbul", "country" : "Turkey"})
+>db.destination.insert({"destination" : "Derinkuyu", "country" : "Turkey"})
+
+>db.rating.insert({"destination" : "Derinkuyu", "rating" : "Underground"})
+>db.rating.insert({"destination" : "Istanbul", "rating" : "Architectural"})
+```
 
 ## Notes - React Basics
 

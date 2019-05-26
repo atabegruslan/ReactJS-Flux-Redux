@@ -8,12 +8,18 @@ var List = React.createClass({
 
 	getInitialState:function()
 	{
-		return {entries: EntriesStore.getAll()}
+		return {entries: null}
 	},
 
 	componentWillMount:function()
 	{
+		EntriesActions.loadEntries();
+
 		EntriesStore.on("create", () => {
+			this.setState({entries: EntriesStore.getAll()});
+		});
+
+		EntriesStore.on("loadAll", () => {
 			this.setState({entries: EntriesStore.getAll()});
 		});
 	},

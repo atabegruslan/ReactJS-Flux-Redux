@@ -1,5 +1,4 @@
 import { EventEmitter } from "events";
-
 import dispatcher from "../dispatcher";
 
 class EntriesStore extends EventEmitter 
@@ -7,10 +6,10 @@ class EntriesStore extends EventEmitter
   constructor()
   {
     super();
-    this.entries = [
-      {destination: "Istanbul", country: "Turkey", rating: "Architectural"},
-      {destination: "Derinkuyu", country: "Turkey", rating: "Underground"}
-    ]
+    // this.entries = [
+    //   {destination: "Istanbul", country: "Turkey", rating: "Architectural"},
+    //   {destination: "Derinkuyu", country: "Turkey", rating: "Underground"}
+    // ]
   }
 
   createEntry(destination, country, rating)
@@ -31,16 +30,17 @@ class EntriesStore extends EventEmitter
         this.createEntry(action.destination, action.country, action.rating);
         break;
       }
+      case "LOAD_ENTRIES": {
+        this.entries = action.data;
+        this.emit("loadAll");
+        break;
+      }
     }
   }  
 }
 
 const entriesStore = new EntriesStore;
 
-//window.entriesStore = entriesStore;
-
 dispatcher.register(entriesStore.handleActions.bind(entriesStore));
-
-//window.dispatcher = dispatcher;
 
 export default entriesStore;

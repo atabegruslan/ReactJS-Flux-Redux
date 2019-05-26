@@ -25,12 +25,20 @@
     "redux-thunk": "^2.1.0",
     "react-router": "^1.0.3",
     "webpack": "^1.12.9",
-    "webpack-dev-server": "^1.14.1"
+    "webpack-dev-server": "^1.14.1",
+    "co-body": "^4.2.0",
+    "co-monk": "^1.0.0",
+    "co-views": "^2.1.0",
+    "koa": "^1.2.4",
+    "koa-route": "^2.4.2",
+    "koa-static": "^2.0.0",
+    "monk": "^3.1.2"
   },
   "devDependencies": {
     "webpack": "^1.15.0"
   },
   "scripts": {
+    "start": "node --harmony backend/routes.js",
     "transpile": "webpack",
     "watch": "webpack --watch",
     "serve": "./node_modules/.bin/webpack-dev-server --host 127.0.0.1 --port 8081 --content-base public --inline --hot",
