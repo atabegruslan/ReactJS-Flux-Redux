@@ -6,22 +6,29 @@ import * as EntriesActions from "../actions/EntriesActions";
 
 var List = React.createClass({
 
-	getInitialState:function()
+	getInitialState: function()
 	{
 		return {entries: null}
 	},
 
-	componentWillMount:function()
+	componentWillMount: function()
 	{
 		EntriesActions.loadEntries();
 
-		EntriesStore.on("create", () => {
-			this.setState({entries: EntriesStore.getAll()});
-		});
+		EntriesStore.on("create", this.getAllEntries);
 
-		EntriesStore.on("loadAll", () => {
-			this.setState({entries: EntriesStore.getAll()});
-		});
+		EntriesStore.on("loadAll", this.getAllEntries);
+	},
+
+	componentWillUnmount: function()
+	{
+		EntriesStore.unbindListener("create", this.getAllEntries);
+		EntriesStore.unbindListener("loadAll", this.getAllEntries);
+	},
+
+	getAllEntries()
+	{
+		this.setState({entries: EntriesStore.getAll()});
 	},
 
 	createEntry: function(e)
