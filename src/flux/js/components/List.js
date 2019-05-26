@@ -22,8 +22,8 @@ var List = React.createClass({
 
 	componentWillUnmount: function()
 	{
-		EntriesStore.unbindListener("create", this.getAllEntries);
-		EntriesStore.unbindListener("loadAll", this.getAllEntries);
+		EntriesStore.removeListener("create", this.getAllEntries);
+		EntriesStore.removeListener("loadAll", this.getAllEntries);
 	},
 
 	getAllEntries()
