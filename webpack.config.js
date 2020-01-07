@@ -2,10 +2,21 @@ var debug = process.env.NODE_ENV !== "production";
 var webpack = require('webpack');
 
 var common = {
-    // TODO: Add common Configuration
   devtool: debug ? "inline-sourcemap" : null,
   module: {
-    loaders: [
+    // loaders: [
+    //   {
+    //     test: /\.jsx?$/,
+    //     exclude: /(node_modules|bower_components)/,
+    //     loader: 'babel-loader',
+    //     query: {
+    //       presets: ['react', 'es2015', 'stage-0'],
+    //       plugins: ['react-html-attrs', 'transform-decorators-legacy', 'transform-class-properties'],
+    //     }
+    //   }
+    // ]
+
+    rules: [
       {
         test: /\.jsx?$/,
         exclude: /(node_modules|bower_components)/,
@@ -14,6 +25,34 @@ var common = {
           presets: ['react', 'es2015', 'stage-0'],
           plugins: ['react-html-attrs', 'transform-decorators-legacy', 'transform-class-properties'],
         }
+      },
+      {
+        test: /\.(scss)$/,
+        use: [
+          {
+            // Adds CSS to the DOM by injecting a `<style>` tag
+            loader: 'style-loader'
+          },
+          {
+            // Interprets `@import` and `url()` like `import/require()` and will resolve them
+            loader: 'css-loader'
+          },
+          {
+            // Loader for webpack to process CSS with PostCSS
+            loader: 'postcss-loader',
+            options: {
+              plugins: function () {
+                return [
+                  require('autoprefixer')
+                ];
+              }
+            }
+          },
+          {
+            // Loads a SASS/SCSS file and compiles it to CSS
+            loader: 'sass-loader'
+          }
+        ]
       }
     ]
   },  

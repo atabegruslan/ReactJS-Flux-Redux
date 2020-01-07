@@ -15,15 +15,18 @@ var List = React.createClass({
 	{
 		EntriesActions.loadEntries();
 
-		EntriesStore.on("create", this.getAllEntries);
-
 		EntriesStore.on("loadAll", this.getAllEntries);
+		EntriesStore.on("created", this.getAllEntries);
+		EntriesStore.on("updated", this.getAllEntries);
+		EntriesStore.on("deleted", this.getAllEntries);
 	},
 
 	componentWillUnmount: function()
 	{
-		EntriesStore.removeListener("create", this.getAllEntries);
 		EntriesStore.removeListener("loadAll", this.getAllEntries);
+		EntriesStore.removeListener("created", this.getAllEntries);
+		EntriesStore.removeListener("updated", this.getAllEntries);
+		EntriesStore.removeListener("deleted", this.getAllEntries);
 	},
 
 	getAllEntries()
@@ -33,14 +36,11 @@ var List = React.createClass({
 
 	createEntry: function(e)
 	{
-		EntriesActions.createEntry(
-			{
-				type        : 'CREATE_ENTRY', 
-				destination : e.target.parentElement.childNodes[0].value, 
-				country     : e.target.parentElement.childNodes[1].value, 
-				rating      : e.target.parentElement.childNodes[2].value
-			}
-		);
+		EntriesActions.createEntry({
+			destination : e.target.parentElement.childNodes[0].value, 
+			country     : e.target.parentElement.childNodes[1].value, 
+			rating      : e.target.parentElement.childNodes[2].value
+		});
 	},
 	
 	render: function()

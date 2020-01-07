@@ -101,3 +101,7 @@ Whenever state changes, the React DOM re-renders.
 - https://medium.com/@raju.allen/a-simple-crud-application-with-login-on-react-redux-axios-nodejs-rest-api-mongodb-part-ii-376606eb67a7
 - https://www.freecodecamp.org/news/react-interview-question-what-gets-rendered-in-the-browser-a-component-or-an-element-1b3eac777c85/
 - https://jscomplete.com/learn/react-beyond-basics/react-fundamentals
+- https://stevenwestmoreland.com/2018/01/how-to-include-bootstrap-in-your-project-with-webpack.html
+- https://stackoverflow.com/questions/43002099/rules-vs-loaders-in-webpack-whats-the-difference
+- https://webpack.js.org/configuration/
+- https://webpack.js.org/loaders/babel-loader/
