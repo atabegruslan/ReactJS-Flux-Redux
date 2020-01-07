@@ -3,16 +3,24 @@ import axios from "axios";
 
 export function createEntry(entry) 
 {
-  dispatcher.dispatch(
-    {type: 'CREATE_ENTRY', destination: entry.destination, country: entry.country, rating: entry.rating}
-  );
+  var data = {
+    'destination': entry.destination, 
+    'country'    : entry.country, 
+    'rating'     : entry.rating
+  };
+
+  axios.post("http://localhost:3000/", data)
+    .then((res) => {
+      console.dir(res);
+      this.loadEntries();
+    });
 }
 
 export function loadEntries() 
 {
-    // https://www.npmjs.com/package/koa-cors
-    // https://github.com/koajs/cors
-    axios("http://localhost:3000/read").then((data) => {
+  axios.get("http://localhost:3000/read")
+    .then((data) => {
+      console.dir(data);
       dispatcher.dispatch(
         {type: 'LOAD_ENTRIES', data: data.data.entries}
       );

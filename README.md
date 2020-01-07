@@ -41,8 +41,8 @@ In terminal: `node testnode.js`
 ### Setup Mongo Database
 
 1. Install mongo
-2. In directories: create 'C:/data/db'
-3. Start mongo database server: In 'C:/data/' directory, give this command: `mongod --dbpath .` in the command line. Keep this terminal open.
+2. In directories: create `C:/data/db`
+3. Start mongo database server: In `C:/data/` directory, give this command: `mongod --dbpath .` in the command line. Keep this terminal open.
 
 ```
 $mongo
@@ -85,14 +85,19 @@ Whenever state changes, the React DOM re-renders.
 
 ## References:
 
-[React-Flux-Redux Tutorial](https://www.youtube.com/playlist?list=PLoYCgNOIyGABj2GQSlDRjgvXtqfDxKm5b)
-
-[Good Beginner WebPack Tutorial](https://www.youtube.com/watch?v=9kJVYpOqcVU)
-
-https://medium.com/@fay_jai/react-elements-vs-react-components-vs-component-backing-instances-14d42729f62
-https://codeburst.io/setting-up-a-react-project-from-scratch-d62f38ab6d97
-https://www.codementor.io/@tamizhvendan/beginner-guide-setup-reactjs-environment-npm-babel-6-webpack-du107r9zr
-https://www.freecodecamp.org/news/how-to-understand-a-components-lifecycle-methods-in-reactjs-e1a609840630/
-https://github.com/reactjs/react-tutorial
-https://github.com/learncodeacademy/react-js-tutorials
-https://github.com/meteor/simple-todos-react
+- https://www.youtube.com/playlist?list=PLoYCgNOIyGABj2GQSlDRjgvXtqfDxKm5b <sup>very good</sup>
+- https://www.youtube.com/watch?v=9kJVYpOqcVU <sup>very good webpack</sup>
+- https://medium.com/@fay_jai/react-elements-vs-react-components-vs-component-backing-instances-14d42729f62
+- https://codeburst.io/setting-up-a-react-project-from-scratch-d62f38ab6d97
+- https://www.codementor.io/@tamizhvendan/beginner-guide-setup-reactjs-environment-npm-babel-6-webpack-du107r9zr
+- https://www.freecodecamp.org/news/how-to-understand-a-components-lifecycle-methods-in-reactjs-e1a609840630/
+- https://github.com/reactjs/react-tutorial
+- https://github.com/learncodeacademy/react-js-tutorials
+- https://github.com/meteor/simple-todos-react
+- https://dzone.com/articles/top-10-most-common-commands-for-beginners
+- https://www.npmjs.com/package/koa-cors
+- https://github.com/koajs/cors
+- https://dev.to/nburgess/creating-a-react-app-with-react-router-and-an-express-backend-33l3
+- https://medium.com/@raju.allen/a-simple-crud-application-with-login-on-react-redux-axios-nodejs-rest-api-mongodb-part-ii-376606eb67a7
+- https://www.freecodecamp.org/news/react-interview-question-what-gets-rendered-in-the-browser-a-component-or-an-element-1b3eac777c85/
+- https://jscomplete.com/learn/react-beyond-basics/react-fundamentals
