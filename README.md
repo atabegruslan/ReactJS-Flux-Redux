@@ -67,5 +67,6 @@ Whenever state changes, the React DOM re-renders.
 
 ## References:
 
+- https://www.youtube.com/watch?v=9kJVYpOqcVU <sup>webpack setup</sup>
 - https://www.youtube.com/playlist?list=PLoYCgNOIyGABj2GQSlDRjgvXtqfDxKm5b <sup>very good</sup>
-- https://www.youtube.com/watch?v=9kJVYpOqcVU <sup>very good webpack</sup>
+- https://www.youtube.com/playlist?list=PLC3y8-rFHvwheJHvseC3I0HuYI2f46oAK <sup>catches on nicely at EP11 at Redux Middleware</sup>
