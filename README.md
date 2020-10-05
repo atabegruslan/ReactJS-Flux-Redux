@@ -69,6 +69,8 @@ Whenever state changes, the React DOM re-renders.
 
 ![](https://raw.githubusercontent.com/atabegruslan/ReactJS-Flux-Redux/master/Illustrations/Redux_Intermediate.png)
 
+![](https://raw.githubusercontent.com/atabegruslan/ReactJS-Flux-Redux/master/Illustrations/redux_all_together.png)
+
 ## References:
 
 - https://www.youtube.com/watch?v=9kJVYpOqcVU <sup>webpack setup</sup>
