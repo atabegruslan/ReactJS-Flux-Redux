@@ -23,7 +23,7 @@ var List = React.createClass({
 		/* --- jQuery AJAX --- */
 		// $.ajax({
 		// 	type: 'GET',
-		// 	url: 'http://localhost:3000/read',
+		// 	url: '/api/read',
 		// 	success: function(data) {
 		// 		console.dir( JSON.parse(data) );
 		// 		this.setState( JSON.parse(data) );
@@ -37,7 +37,7 @@ var List = React.createClass({
 		// });
 
 		/* --- Fetch API --- */
-		// fetch('http://localhost:3000/read')
+		// fetch('/api/read')
 		// 	.then(data => data.json())
 		// 	.then(data => {
 		// 		console.dir(data);
@@ -45,8 +45,10 @@ var List = React.createClass({
 		// 	})
 		// 	.catch(err => console.dir(err));
 
+		// Without proxy: axios.get("http://localhost:3000/read"
+
 		/* --- Axios library --- */
-		axios.get("http://localhost:3000/read")
+		axios.get("/api/read")
 			.then((data) => {
 				console.dir(data);
 				this.setState(data.data);
@@ -64,12 +66,12 @@ var List = React.createClass({
 		/* --- jQuery AJAX --- */
 		// $.ajax({
 		// 	type: 'POST',
-		// 	url: 'http://localhost:3000/',
+		// 	url: '/api/',
 		// 	dataType: 'json',
 		// 	data: data,
 		// 	success: function(res) {
 		// 		console.dir(res);
-		// 		window.location = "http://127.0.0.1:8081/react/";
+		// 		window.location = "/react/";
 		// 	}.bind(this),
 		// 	error: function(xhr, status, err) {
 		// 		console.dir("Create Error");
@@ -80,7 +82,7 @@ var List = React.createClass({
 		// });	
 
 		/* --- Fetch API --- */
-		// fetch('http://localhost:3000/', {
+		// fetch('/api/', {
 		// 	method: 'post',
 		// 	body: JSON.stringify(data),
 		// 	headers: {
@@ -90,15 +92,17 @@ var List = React.createClass({
 		// 	.then(res => res.json())
 		// 	.then(res => {
 		// 		console.dir(res);
-		// 		window.location = "http://127.0.0.1:8081/react/";
+		// 		window.location = "/react/";
 		// 	})
 		// 	.catch(err => console.dir(err));
 
+		// Without proxy: axios.post("http://localhost:3000/"
+
 		/* --- Axios library --- */
-		axios.post("http://localhost:3000/", data)
+		axios.post("/api/", data)
 			.then((res) => {
 				console.dir(res);
-				window.location = "http://127.0.0.1:8081/react/";
+				window.location = "/react/";
 			});
 	},
 	

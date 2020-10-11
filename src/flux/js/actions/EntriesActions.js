@@ -3,7 +3,7 @@ import axios from "axios";
 
 export function loadEntries() 
 {
-  axios.get("http://localhost:3000/read")
+  axios.get("/api/read")
     .then((data) => {
       console.dir(data);
       dispatcher.dispatch(
@@ -20,7 +20,7 @@ export function createEntry(entry)
     'rating'     : entry.rating
   };
 
-  axios.post("http://localhost:3000/", data)
+  axios.post("/api/", data)
     .then((res) => {
       console.dir(res);
       this.loadEntries();
@@ -38,7 +38,7 @@ export function updateEntry(entry)
     'rating'     : entry.rating
   };
 
-  axios.put("http://localhost:3000/", data)
+  axios.put("/api/", data)
     .then((res) => {
       console.dir(res);
 
@@ -54,7 +54,7 @@ export function deleteEntry(entry)
     'destination': entry.destination
   };
 
-  axios.delete("http://localhost:3000/", {'data':data})
+  axios.delete("/api/", {'data':data})
     .then((res) => {
       console.dir(res);
 

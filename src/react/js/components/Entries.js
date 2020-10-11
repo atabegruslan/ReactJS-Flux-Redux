@@ -13,12 +13,12 @@ var Entries = React.createClass({
 		/* --- jQuery AJAX --- */
 		// $.ajax({
 		// 	type: 'PUT',
-		// 	url: 'http://localhost:3000/',
+		// 	url: '/api/',
 		// 	dataType: 'json',
 		// 	data: data,
 		// 	success: function(res) {
 		// 		console.dir(res);
-		// 		window.location = "http://127.0.0.1:8081/react/";
+		// 		window.location = "/react/";
 		// 	}.bind(this),
 		// 	error: function(xhr, status, err) {
 		// 		console.dir("Update Error");
@@ -29,7 +29,7 @@ var Entries = React.createClass({
 		// });			
 
 		/* --- Fetch API --- */
-		// fetch('http://localhost:3000/', {
+		// fetch('/api/', {
 		// 	method: 'put',
 		// 	body: JSON.stringify(data),
 		// 	headers: {
@@ -39,15 +39,17 @@ var Entries = React.createClass({
 		// 	.then(res => res.json())
 		// 	.then(res => {
 		// 		console.dir(res);
-		// 		window.location = "http://127.0.0.1:8081/react/";
+		// 		window.location = "/react/";
 		// 	})
 		// 	.catch(err => console.dir(err));
 
+		// Without proxy: axios.put("http://localhost:3000/"
+
 		/* --- Axios library --- */
-		axios.put("http://localhost:3000/", data)
+		axios.put("/api/", data)
 			.then((res) => {
 				console.dir(res);
-				window.location = "http://127.0.0.1:8081/react/";
+				window.location = "/react/";
 			});
 	},
 	
@@ -60,12 +62,12 @@ var Entries = React.createClass({
 		/* --- jQuery AJAX --- */
 		// $.ajax({
 		// 	type: 'DELETE',
-		// 	url: 'http://localhost:3000/',
+		// 	url: '/api/',
 		// 	dataType: 'json',
 		// 	data: data,
 		// 	success: function(res) {
 		// 		console.dir(res);
-		// 		window.location = "http://127.0.0.1:8081/react/";
+		// 		window.location = "/react/";
 		// 	}.bind(this),
 		// 	error: function(xhr, status, err) {
 		// 		console.dir("Delete Error");
@@ -76,7 +78,7 @@ var Entries = React.createClass({
 		// });		
 
 		/* --- Fetch API --- */
-		// fetch('http://localhost:3000/', {
+		// fetch('/api/', {
 		// 	method: 'delete',
 		// 	body: JSON.stringify(data),
 		// 	headers: {
@@ -86,15 +88,17 @@ var Entries = React.createClass({
 		// 	.then(res => res.json())
 		// 	.then(res => {
 		// 		console.dir(res);
-		// 		window.location = "http://127.0.0.1:8081/react/";
+		// 		window.location = "/react/";
 		// 	})
 		// 	.catch(err => console.dir(err));	
 
+		// Without proxy: axios.delete("http://localhost:3000/"
+
         /* --- Axios library --- */
-		axios.delete("http://localhost:3000/", {'data':data})
+		axios.delete("/api/", {'data':data})
 			.then((res) => {
 				console.dir(res);
-				window.location = "http://127.0.0.1:8081/react/";
+				window.location = "/react/";
 			});
 	},
 	

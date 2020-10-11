@@ -52,7 +52,7 @@
     "start": "node --harmony backend/routes.js",
     "transpile": "webpack",
     "watch": "webpack --watch",
-    "serve": "./node_modules/.bin/webpack-dev-server --host 127.0.0.1 --port 8081 --content-base public --inline --hot",
+    "serve": "./node_modules/.bin/webpack-dev-server --host 127.0.0.1 --port 80 --content-base public --inline --hot",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
