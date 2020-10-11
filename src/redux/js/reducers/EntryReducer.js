@@ -13,6 +13,18 @@ export default function entryReducer(state={entries: []}, action)
 				entries: action.payload,
 			}
 		}
+		
+		case "CREATE_ENTRY": {
+			return {...state, fetching: true}
+		}
+		case "CREATE_ENTRY_FULFILLED": {
+			return {
+				...state,
+				fetching: false,
+				fetched: true,
+				entries: action.payload,
+			}
+		}
 	}
 
 	return state

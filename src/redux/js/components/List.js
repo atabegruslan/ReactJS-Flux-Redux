@@ -1,6 +1,6 @@
 import React from "react";
 import { connect } from "react-redux"
-import { loadEntries } from "../actions/EntriesActions.js"
+import { loadEntries, createEntry } from "../actions/EntriesActions.js"
 import Entries from "./Entries";
 
 var List = React.createClass({
@@ -12,8 +12,14 @@ var List = React.createClass({
 
 	render: function()
 	{
-		console.log('entries');
-		console.dir(this.props.entries);
+		var mappedEntries;
+
+		if(typeof this.props.entries !== 'undefined' && this.props.entries.length > 0)
+		{
+			mappedEntries = this.props.entries.map(function(item) {
+				return <Entries item={item} />
+			});
+		}
 
 		return (
 			<div className='container'>
@@ -26,7 +32,7 @@ var List = React.createClass({
 							<tr><td>Destination</td><td>Country</td><td>Rating</td></tr>
 						</thead>
 						<tbody>
-							
+							{mappedEntries}
 						</tbody>										
 					</table>
 				</div>
@@ -45,14 +51,14 @@ var List = React.createClass({
 
 const mapStateToProps = state => {
 	return {
-		entries: state.entries
+		entries: state.entryReducer.entries
 	}
 }
 
 const mapDispatchToProps = dispatch => {
 	return {
-		loadEntries: () => dispatch(loadEntries())
-		//createEntry: () => dispatch(createEntry())
+		loadEntries: () => dispatch(loadEntries()),
+		createEntry: (e) => dispatch(createEntry(e.target.parentElement))
 	}
 }
 
