@@ -18,7 +18,7 @@ In terminal: `node testnode.js`
 
 6. Serve: `npm run serve`
 
-7. In browser: open: `http://127.0.0.1:8081/flux/` or `http://127.0.0.1:8081/react/` or `http://127.0.0.1:8081/redux/`
+7. In browser: open: `http://127.0.0.1/flux/` or `http://127.0.0.1/react/` or `http://127.0.0.1/redux/`
 
 ### Setup Mongo Database
 
