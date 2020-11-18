@@ -34,3 +34,38 @@ export function createEntry(entry)
       })
   }
 }
+
+export function updateEntry(entry) 
+{
+  var data = {
+    'destination': entry.parentElement.childNodes[0].innerText, 
+    'rating'     : entry.childNodes[0].value
+  };
+
+  return function(dispatch) 
+  {
+    dispatch({type: "UPDATE_ENTRY"});
+
+    axios.put("/api/", data)
+      .then((response) => {
+        dispatch({type: "UPDATE_ENTRY_FULFILLED", payload: data})
+      })
+  }
+}
+
+export function deleteEntry(entry) 
+{
+  var data = {
+    'destination': entry.parentElement.childNodes[0].innerText
+  };
+
+  return function(dispatch) 
+  {
+    dispatch({type: "DELETE_ENTRY"});
+
+    axios.delete("/api/", {'data':data})
+      .then((response) => {
+        dispatch({type: "DELETE_ENTRY_FULFILLED", payload: data})
+      })
+  }
+}

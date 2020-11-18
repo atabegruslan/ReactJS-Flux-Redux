@@ -2,19 +2,26 @@ import React from "react";
 import { connect } from "react-redux"
 import { loadEntries, createEntry } from "../actions/EntriesActions.js"
 import Entries from "./Entries";
+import { Redirect } from "react-router-dom";
 
 var List = React.createClass({
 
 	componentWillMount: function()
 	{
-		this.props.loadEntries()
+		this.props.loadEntries();
 	},
 
 	render: function()
 	{
 		var mappedEntries;
 
-		if(typeof this.props.entries !== 'undefined' && this.props.entries.length > 0)
+		if (typeof this.props.redirect !== 'undefined')
+		{
+			//return <Redirect to={this.props.redirect} />;
+			window.location.reload();
+		}
+
+		if (typeof this.props.entries !== 'undefined' && this.props.entries.length > 0)
 		{
 			mappedEntries = this.props.entries.map(function(item) {
 				return <Entries item={item} />
@@ -51,7 +58,8 @@ var List = React.createClass({
 
 const mapStateToProps = state => {
 	return {
-		entries: state.entryReducer.entries
+		entries: state.entryReducer.entries,
+		redirect: state.entryReducer.redirect
 	}
 }
 
