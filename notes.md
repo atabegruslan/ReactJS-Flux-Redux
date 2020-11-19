@@ -109,6 +109,10 @@ They don’t refer to anything on the screen when you create them.
 # Useful Basics
 
 - https://dzone.com/articles/top-10-most-common-commands-for-beginners
+- https://stackoverflow.com/questions/36994564/how-can-one-tell-the-version-of-react-running-at-runtime-in-the-browser
+- To stop this server process and free up the port, press Cntr + C, or find and delete the process:
+
+![](https://raw.githubusercontent.com/atabegruslan/ReactJS-Flux-Redux/master/Illustrations/Stop-webpack-dev-server.PNG)
 
 # CSS
 
@@ -154,3 +158,14 @@ They don’t refer to anything on the screen when you create them.
 - https://reactrouter.com/web/api/Redirect
 - https://stackoverflow.com/questions/46820682/how-do-i-reload-a-page-with-react-router <sup>Good</sup>
 - https://www.npmjs.com/package/react-router
+
+## Save-Dev flag
+
+npm install [package_name] --save  is used to save the package required for the application to run. <br />
+npm install [package_name] --save-dev is used to save the package for development purpose. Example: unit tests, minification..
+
+Short Explanation https://stackoverflow.com/questions/22891211/what-is-the-difference-between-save-and-save-dev <br />
+Long Explanation https://stackoverflow.com/questions/33504641/whats-the-difference-between-save-and-save-dev-in-npm-install/33507291
+
+Note 1: https://www.youtube.com/watch?v=w5TupxbnnrM&t=261s <sup>to 426s</sup> <br />
+Note 2: https://github.com/Microsoft/types-publisher/issues/81#issuecomment-234051338
