@@ -85,6 +85,9 @@ They don’t refer to anything on the screen when you create them.
 - https://yourstory.com/mystory/flux-vs-redux
 - https://dev.to/rosyshrestha/build-your-first-app-with-mobx-and-react-4896
 - https://www.npmjs.com/package/mobx-react
+- Alternatives to Redux
+
+![](https://raw.githubusercontent.com/atabegruslan/ReactJS-Flux-Redux/master/Illustrations/redux_alt.jpg)
 
 ## Redux Middlewares
 
