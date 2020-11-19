@@ -3,9 +3,6 @@ var webpack = require('webpack');
 
 var common = {
   devServer: { 
-    // https://stackoverflow.com/questions/50591374/mern-stack-express-and-react-on-same-port
-    // https://medium.com/bb-tutorials-and-thoughts/react-how-to-proxy-to-backend-server-5588a9e0347
-    // (This works here) https://stackoverflow.com/questions/44365577/proxy-in-package-json-not-affecting-fetch-request
     proxy: { 
       "/api/**": {
         target: 'http://localhost:3000', 
