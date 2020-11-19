@@ -14,31 +14,21 @@
 
 React Element is what component returns; An object (untouchable in mem) that describes the DOM nodes that a component represents. 
 
+Each component instance has to keep references to its DOM node, <br />
+   and to the instances of the children components, <br />
+   and create, update, and destroy them when the time is right.
 
-Each component instance has to keep references to its DOM node, 
-
-and to the instances of the children components, 
-
-and create, update, and destroy them when the time is right.
-
-
-An element is a plain object describing a component instance or DOM node and its desired properties. 
-
-It contains only information about the
+An element is a plain object describing a component instance or DOM node and its desired properties. <br />
+It contains only information about the:
 - component type (for example, a Button),
 - its properties (for example, its color),
 - and any child elements inside it.
- 
- 
-A React element is not an actual instance. 
 
-Rather, it is a way to tell React what you want to see on the screen. 
-
+A React element is not an actual instance. <br />
+Rather, it is a way to tell React what you want to see on the screen. <br />
 React Elements are immutable. You cant interact with it.
 
-
-Elements are just descriptions and not the actual instances. 
-
+Elements are just descriptions and not the actual instances. <br />
 They don’t refer to anything on the screen when you create them.
 
 ***
