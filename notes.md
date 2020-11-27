@@ -60,9 +60,9 @@ They don’t refer to anything on the screen when you create them.
 ![](https://raw.githubusercontent.com/atabegruslan/ReactJS-Flux-Redux/master/Illustrations/hooks.PNG)
 
 - https://reactjs.org/docs/context.html
-- https://www.digitalocean.com/community/tutorials/react-error-boundaries
-- https://reactjs.org/docs/fragments.html
-- https://reactjs.org/docs/code-splitting.html
+- https://www.digitalocean.com/community/tutorials/react-error-boundaries , https://www.youtube.com/watch?v=ieOhZJbLptc
+- https://reactjs.org/docs/fragments.html , https://www.youtube.com/watch?v=GtLvQ5TuM2s
+- https://reactjs.org/docs/code-splitting.html , https://www.youtube.com/watch?v=tV9gvls8IP8 , https://www.youtube.com/watch?v=Ef3nvKLS4no
 
 # Frameworks
 
@@ -70,11 +70,12 @@ They don’t refer to anything on the screen when you create them.
 
 # Patterns
 
-- https://www.toptal.com/react/react-context-api
+- https://www.toptal.com/react/react-context-api , https://www.youtube.com/watch?v=XkBB3pPY3t8&list=PL4cUxeGkcC9hNokByJilPg5g9m2APUePI&index=2
 - https://scotch.io/courses/5-essential-react-concepts-to-know-before-learning-redux/presentational-and-container-component-pattern-in-react
 
 # Flux, Redux, MobX, etc...
 
+- https://www.youtube.com/watch?v=76FRrbY18Bs
 - https://www.newline.co/fullstack-react/30-days-of-react/day-18/
 - https://www.imaginea.com/redux-vs-mobx-what-you-need-to-know/
 - https://www.educba.com/redux-alternatives/
