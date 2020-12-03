@@ -87,7 +87,7 @@ However, the MobX part of this project cannot be completed, because the React ve
 
 Below is as far as it can go:
 
-https://raw.githubusercontent.com/atabegruslan/ReactJS-Flux-Redux/master/src/mobx/js/components/List.js
+https://github.com/atabegruslan/ReactJS-Flux-Redux/blob/master/src/mobx/js/components/List.js
 
 `npm run serve`
 
