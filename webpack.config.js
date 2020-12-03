@@ -98,7 +98,16 @@ var reduxConfig = Object.assign({}, common,{
   },
 });
 
+var mobxConfig = Object.assign({}, common,{
+  name: "Mobx",
+  entry: `${__dirname}/src/mobx/js/scripts.js`,
+  output: {
+    path: __dirname + "/public/mobx/js",
+    filename: "scripts.min.js"
+  },
+});
+
 // Return Array of Configurations
 module.exports = [
-    reactConfig, fluxConfig, reduxConfig,     
+    reactConfig, fluxConfig, reduxConfig, mobxConfig, 
 ];

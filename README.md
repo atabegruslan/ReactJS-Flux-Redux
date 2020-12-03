@@ -63,13 +63,37 @@ Whenever state changes, the React DOM re-renders.
 
 ## Redux - React Basics
 
+![Flux to Redux](https://raw.githubusercontent.com/atabegruslan/ReactJS-Flux-Redux/master/Illustrations/redux_flux.PNG "Flux to Redux")
+
 ![Redux](https://raw.githubusercontent.com/atabegruslan/ReactJS-Flux-Redux/master/Illustrations/Redux.PNG "Event")
+
+![](https://raw.githubusercontent.com/atabegruslan/ReactJS-Flux-Redux/master/Illustrations/redux.gif)
 
 ![](https://raw.githubusercontent.com/atabegruslan/ReactJS-Flux-Redux/master/Illustrations/Redux_Simple.png)
 
 ![](https://raw.githubusercontent.com/atabegruslan/ReactJS-Flux-Redux/master/Illustrations/Redux_Intermediate.png)
 
 ![](https://raw.githubusercontent.com/atabegruslan/ReactJS-Flux-Redux/master/Illustrations/redux_all_together.png)
+
+## MobX
+
+![](https://raw.githubusercontent.com/atabegruslan/ReactJS-Flux-Redux/master/Illustrations/mobx.png)
+
+![](https://raw.githubusercontent.com/atabegruslan/ReactJS-Flux-Redux/master/Illustrations/mobx_2.png)
+
+![](https://raw.githubusercontent.com/atabegruslan/ReactJS-Flux-Redux/master/Illustrations/redux_mobx_1.PNG)
+
+However, the MobX part of this project cannot be completed, because the React version here is too old.
+
+Below is as far as it can go:
+
+https://raw.githubusercontent.com/atabegruslan/ReactJS-Flux-Redux/master/src/mobx/js/components/List.js
+
+`npm run serve`
+
+`http://127.0.0.1/mobx/`
+
+To see this MobX continued in a newer version of React: https://github.com/atabegruslan/React-MobX
 
 ## References:
 
