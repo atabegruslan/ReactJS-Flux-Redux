@@ -60,9 +60,12 @@ They don’t refer to anything on the screen when you create them.
 ![](https://raw.githubusercontent.com/atabegruslan/ReactJS-Flux-Redux/master/Illustrations/hooks.PNG)
 
 - https://reactjs.org/docs/context.html
-- https://www.digitalocean.com/community/tutorials/react-error-boundaries , https://www.youtube.com/watch?v=ieOhZJbLptc
+- https://www.digitalocean.com/community/tutorials/react-error-boundaries , https://www.youtube.com/watch?v=ieOhZJbLptc&list=RDCMUCCTVrRB5KpIiK6V2GGVsR1Q
 - https://reactjs.org/docs/fragments.html , https://www.youtube.com/watch?v=GtLvQ5TuM2s
 - https://reactjs.org/docs/code-splitting.html , https://www.youtube.com/watch?v=tV9gvls8IP8 , https://www.youtube.com/watch?v=Ef3nvKLS4no
+- https://www.youtube.com/watch?v=t4okzJc6_Ak
+- https://www.youtube.com/watch?v=jVtxC6CKzYU
+- More to learn: react, component composition
 
 # Frameworks
 
