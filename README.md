@@ -75,6 +75,8 @@ Whenever state changes, the React DOM re-renders.
 
 ![](https://raw.githubusercontent.com/atabegruslan/ReactJS-Flux-Redux/master/Illustrations/redux_all_together.png)
 
+![](https://raw.githubusercontent.com/atabegruslan/ReactJS-Flux-Redux/master/Illustrations/Redux%20in%20a%20nutshell.PNG)
+
 ## MobX
 
 ![](https://raw.githubusercontent.com/atabegruslan/ReactJS-Flux-Redux/master/Illustrations/mobx.png)
@@ -98,6 +100,7 @@ To see this MobX continued in a newer version of React: https://github.com/atabe
 ## References:
 
 - https://www.youtube.com/watch?v=9kJVYpOqcVU <sup>webpack setup</sup>
+- https://www.youtube.com/playlist?list=PLblA84xge2_zwxh3XJqy6UVxS60YdusY8 <sup>webpack tutorial</sup>
 - https://www.youtube.com/playlist?list=PLoYCgNOIyGABj2GQSlDRjgvXtqfDxKm5b <sup>very good</sup>
 - https://www.youtube.com/playlist?list=PLC3y8-rFHvwheJHvseC3I0HuYI2f46oAK <sup>catches on nicely at EP11 at Redux Middleware</sup>
 - https://www.youtube.com/playlist?list=PL7pEw9n3GkoUZqnNQEVbLfTTVBIWBxXg9 <sup>good to learn from</sup>
