@@ -1,7 +1,8 @@
 # Setup
 
 - https://codeburst.io/setting-up-a-react-project-from-scratch-d62f38ab6d97
-- https://www.codementor.io/@tamizhvendan/beginner-guide-setup-reactjs-environment-npm-babel-6-webpack-du107r9zr
+- https://www.codementor.io/@tamizhvendan/beginner-guide-setup-reactjs-environment-npm-babel-6-
+-du107r9zr
 - https://reactjs.org/docs/create-a-new-react-app.html
 
 # Components, Elements & Instances
@@ -9,6 +10,7 @@
 - https://medium.com/@fay_jai/react-elements-vs-react-components-vs-component-backing-instances-14d42729f62
 - https://www.freecodecamp.org/news/react-interview-question-what-gets-rendered-in-the-browser-a-component-or-an-element-1b3eac777c85/
 - https://stackoverflow.com/questions/30971395/difference-between-react-component-and-react-element
+- https://stackoverflow.com/questions/43206062/why-do-i-have-to-put-babel-presets-inside-babelrc-and-webpack-config-js
 
 ***
 
