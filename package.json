@@ -1,7 +1,7 @@
 {
-  "name": "flux",
+  "name": "react_flux_redux",
   "version": "1.0.0",
-  "description": "flux",
+  "description": "react_flux_redux",
   "main": "index.js",
   "dependencies": {
     "axios": "^0.12.0",
@@ -18,6 +18,7 @@
     "co-body": "^4.2.0",
     "co-monk": "^1.0.0",
     "co-views": "^2.1.0",
+    "css-loader": "^3.6.0",
     "flux": "^2.1.1",
     "history": "^1.17.0",
     "jquery": "^3.5.1",
@@ -28,6 +29,7 @@
     "mobx": "^6.0.4",
     "mobx-react": "^7.0.5",
     "monk": "^3.1.2",
+    "node-sass": "^4.14.1",
     "popper.js": "^1.16.1",
     "react": "^0.14.10",
     "react-dom": "^0.14.10",
@@ -38,18 +40,13 @@
     "redux-logger": "^2.6.1",
     "redux-promise-middleware": "^3.2.0",
     "redux-thunk": "^2.1.0",
-    "webpack": "4.40.2",
-    "webpack-dev-server": "^3.11.0"
-  },
-  "devDependencies": {
-    "autoprefixer": "^9.8.6",
-    "css-loader": "^3.6.0",
-    "node-sass": "^4.14.1",
-    "postcss-loader": "^3.0.0",
     "sass-loader": "^8.0.2",
     "style-loader": "^1.3.0",
     "webpack": "4.40.2",
     "webpack-cli": "^3.3.12"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^3.11.0"
   },
   "scripts": {
     "start": "node --harmony backend/routes.js",

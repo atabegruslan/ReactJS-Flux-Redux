@@ -30,36 +30,24 @@ var common = {
         exclude: /(node_modules|bower_components)/,
         loader: 'babel-loader',
         query: {
-          presets: ['react', 'es2015', 'stage-0'],
-          plugins: ['react-html-attrs', 'transform-decorators-legacy', 'transform-class-properties'],
-        }
+          presets: [
+            'react', // Transpile React JSX
+            'es2015', // Transpile ES6 code
+            'stage-0' // Transpile features after ES6
+          ],
+          plugins: [
+            'react-html-attrs', 
+            'transform-decorators-legacy', 
+            'transform-class-properties'
+          ],
+        } // https://stackoverflow.com/questions/43206062/why-do-i-have-to-put-babel-presets-inside-babelrc-and-webpack-config-js
       },
       {
         test: /\.(scss)$/,
         use: [
-          {
-            // Adds CSS to the DOM by injecting a `<style>` tag
-            loader: 'style-loader'
-          },
-          {
-            // Interprets `@import` and `url()` like `import/require()` and will resolve them
-            loader: 'css-loader'
-          },
-          {
-            // Loader for webpack to process CSS with PostCSS
-            loader: 'postcss-loader',
-            options: {
-              plugins: function () {
-                return [
-                  require('autoprefixer')
-                ];
-              }
-            }
-          },
-          {
-            // Loads a SASS/SCSS file and compiles it to CSS
-            loader: 'sass-loader'
-          }
+          "style-loader", // 3. Inject styles into DOM
+          "css-loader", // 2. Turn css into js
+          "sass-loader" // 1. Turn sass into css (dependent on node-sass)
         ]
       }
     ]

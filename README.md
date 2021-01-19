@@ -75,7 +75,7 @@ Whenever state changes, the React DOM re-renders.
 
 ![](https://raw.githubusercontent.com/atabegruslan/ReactJS-Flux-Redux/master/Illustrations/redux_all_together.png)
 
-![](https://raw.githubusercontent.com/atabegruslan/ReactJS-Flux-Redux/master/Illustrations/Redux%20in%20a%20nutshell.PNG)
+![](https://raw.githubusercontent.com/atabegruslan/ReactJS-Flux-Redux/master/Illustrations/Redux_in_a_nutshell.PNG)
 
 ## MobX
 

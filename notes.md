@@ -10,7 +10,6 @@
 - https://medium.com/@fay_jai/react-elements-vs-react-components-vs-component-backing-instances-14d42729f62
 - https://www.freecodecamp.org/news/react-interview-question-what-gets-rendered-in-the-browser-a-component-or-an-element-1b3eac777c85/
 - https://stackoverflow.com/questions/30971395/difference-between-react-component-and-react-element
-- https://stackoverflow.com/questions/43206062/why-do-i-have-to-put-babel-presets-inside-babelrc-and-webpack-config-js
 
 ***
 
@@ -58,8 +57,9 @@ They don’t refer to anything on the screen when you create them.
 - https://www.w3schools.com/REACT/react_lifecycle.asp
 - https://www.freecodecamp.org/news/how-to-understand-a-components-lifecycle-methods-in-reactjs-e1a609840630/
 - https://reactjs.org/docs/hooks-overview.html
+- https://github.com/mobxjs/mobx-react/issues/447
 
-![](https://raw.githubusercontent.com/atabegruslan/ReactJS-Flux-Redux/master/Illustrations/hooks.PNG)
+![](https://raw.githubusercontent.com/atabegruslan/ReactJS-Flux-Redux/master/Illustrations/React_lifecycle.png)
 
 - https://reactjs.org/docs/context.html
 - https://www.digitalocean.com/community/tutorials/react-error-boundaries , https://www.youtube.com/watch?v=ieOhZJbLptc&list=RDCMUCCTVrRB5KpIiK6V2GGVsR1Q
