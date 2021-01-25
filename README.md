@@ -105,3 +105,10 @@ To see this MobX continued in a newer version of React: https://github.com/atabe
 - https://www.youtube.com/playlist?list=PLC3y8-rFHvwheJHvseC3I0HuYI2f46oAK <sup>catches on nicely at EP11 at Redux Middleware</sup>
 - https://www.youtube.com/playlist?list=PL7pEw9n3GkoUZqnNQEVbLfTTVBIWBxXg9 <sup>good to learn from</sup>
 - https://www.youtube.com/watch?v=e7ulH0iTlnI&list=RDCMUCW5YeuERMmlnqo4oq8vwUpg <sup>More Tutorials</sup>
+
+
+- https://www.freecodecamp.org/news/loading-data-in-react-redux-thunk-redux-saga-suspense-hooks-666b21da1569/
+- https://github.com/redux-json-api/react-redux-json-api-example
+- https://redux.js.org/introduction/examples
+- https://blog.tylerbuchea.com/super-simple-react-redux-application-example/
+
