@@ -57,6 +57,7 @@ They don’t refer to anything on the screen when you create them.
 - https://www.w3schools.com/REACT/react_lifecycle.asp
 - https://www.freecodecamp.org/news/how-to-understand-a-components-lifecycle-methods-in-reactjs-e1a609840630/
 - https://reactjs.org/docs/hooks-overview.html
+   - https://www.freecodecamp.org/news/react-hooks-cheatsheet/amp/
 - https://github.com/mobxjs/mobx-react/issues/447
 
 ![](https://raw.githubusercontent.com/atabegruslan/ReactJS-Flux-Redux/master/Illustrations/React_lifecycle.png)
