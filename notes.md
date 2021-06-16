@@ -2,8 +2,15 @@
 
 - https://codeburst.io/setting-up-a-react-project-from-scratch-d62f38ab6d97
 - https://www.codementor.io/@tamizhvendan/beginner-guide-setup-reactjs-environment-npm-babel-6-
--du107r9zr
 - https://reactjs.org/docs/create-a-new-react-app.html
+- https://www.digitalocean.com/community/tutorials/how-to-set-up-a-react-project-with-create-react-app
+- From scratch:
+   - https://dev.to/siradji/react-without-create-react-app-start-building-your-react-project-like-a-professional-1hih
+   - https://medium0.com/swlh/how-to-set-up-a-react-project-from-scratch-78261a9c2bbb
+
+# Deploy
+
+- https://blog.logrocket.com/8-ways-to-deploy-a-react-app-for-free/
 
 # Components, Elements & Instances
 
@@ -115,6 +122,8 @@ They don’t refer to anything on the screen when you create them.
 
 - https://dev.to/nburgess/creating-a-react-app-with-react-router-and-an-express-backend-33l3
 - https://medium.com/@raju.allen/a-simple-crud-application-with-login-on-react-redux-axios-nodejs-rest-api-mongodb-part-ii-376606eb67a7
+
+- Add one more row: https://github.com/Ruslan-Aliyev/React-AddRows
 
 # Useful Basics
 
