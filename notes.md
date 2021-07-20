@@ -65,6 +65,7 @@ They don’t refer to anything on the screen when you create them.
 - https://www.freecodecamp.org/news/how-to-understand-a-components-lifecycle-methods-in-reactjs-e1a609840630/
 - https://reactjs.org/docs/hooks-overview.html
    - https://www.freecodecamp.org/news/react-hooks-cheatsheet/amp/
+- https://www.youtube.com/watch?v=TNhaISOUy6Q <sup>Good</sup>
 - https://github.com/mobxjs/mobx-react/issues/447
 
 ![](https://raw.githubusercontent.com/atabegruslan/ReactJS-Flux-Redux/master/Illustrations/React_lifecycle.png)
@@ -72,7 +73,11 @@ They don’t refer to anything on the screen when you create them.
 - https://reactjs.org/docs/context.html
 - https://www.digitalocean.com/community/tutorials/react-error-boundaries , https://www.youtube.com/watch?v=ieOhZJbLptc&list=RDCMUCCTVrRB5KpIiK6V2GGVsR1Q
 - https://reactjs.org/docs/fragments.html , https://www.youtube.com/watch?v=GtLvQ5TuM2s
-- https://reactjs.org/docs/code-splitting.html , https://www.youtube.com/watch?v=tV9gvls8IP8 , https://www.youtube.com/watch?v=Ef3nvKLS4no
+- Code Split: 
+   - https://reactjs.org/docs/code-splitting.html
+   - https://www.youtube.com/watch?v=tV9gvls8IP8
+   - https://www.youtube.com/watch?v=Ef3nvKLS4no
+   - https://github.com/Ruslan-Aliyev/React-Routing#code-splitting
 - https://www.youtube.com/watch?v=t4okzJc6_Ak
 - https://www.youtube.com/watch?v=jVtxC6CKzYU
 - More to learn: react, component composition
@@ -100,8 +105,10 @@ They don’t refer to anything on the screen when you create them.
 - https://dev.to/rosyshrestha/build-your-first-app-with-mobx-and-react-4896
 - https://www.npmjs.com/package/mobx-react
 - Alternatives to Redux
-
-![](https://raw.githubusercontent.com/atabegruslan/ReactJS-Flux-Redux/master/Illustrations/redux_alt.jpg)
+   - MobX, eg demo https://github.com/atabegruslan/React-MobX
+   - Apollo Client & GraphQL, eg demo https://github.com/Ruslan-Aliyev/laravel_notes#graphql (though in Vue)
+   - RxJS, good tutorial: https://www.youtube.com/watch?v=2LCo926NFLI
+   - ( Concept of push & pull: https://github.com/atabegruslan/ReactJS-Flux-Redux/tree/master/Illustrations/push-pull/ )
 
 ## Redux Middlewares
 
