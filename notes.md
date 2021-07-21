@@ -108,7 +108,7 @@ They don’t refer to anything on the screen when you create them.
    - MobX, eg demo https://github.com/atabegruslan/React-MobX
    - Apollo Client & GraphQL, eg demo https://github.com/Ruslan-Aliyev/laravel_notes#graphql (though in Vue)
    - RxJS, good tutorial: https://www.youtube.com/watch?v=2LCo926NFLI
-   - ( Concept of push & pull: https://github.com/atabegruslan/ReactJS-Flux-Redux/tree/master/Illustrations/push-pull/ )
+   - ( Concept of push & pull: https://github.com/atabegruslan/Others/blob/master/Illustrations/js_async/js_async.md#idea-of-pull-vs-push )
 
 ## Redux Middlewares
 
