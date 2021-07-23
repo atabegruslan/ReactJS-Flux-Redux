@@ -195,3 +195,10 @@ Long Explanation https://stackoverflow.com/questions/33504641/whats-the-differen
 
 Note 1: https://www.youtube.com/watch?v=w5TupxbnnrM&t=261s <sup>to 426s</sup> <br />
 Note 2: https://github.com/Microsoft/types-publisher/issues/81#issuecomment-234051338
+
+---
+
+# More tutorials
+
+- https://www.youtube.com/watch?v=zM93yZ_8SvE
+
