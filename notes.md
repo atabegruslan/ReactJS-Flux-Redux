@@ -67,6 +67,7 @@ They don’t refer to anything on the screen when you create them.
    - https://www.freecodecamp.org/news/react-hooks-cheatsheet/amp/
 - https://www.youtube.com/watch?v=TNhaISOUy6Q <sup>Good</sup>
 - https://github.com/mobxjs/mobx-react/issues/447
+- https://stackoverflow.com/questions/53464595/how-to-use-componentwillmount-in-react-hooks
 
 ![](https://raw.githubusercontent.com/atabegruslan/ReactJS-Flux-Redux/master/Illustrations/React_lifecycle.png)
 
