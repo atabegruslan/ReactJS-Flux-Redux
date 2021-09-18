@@ -18,8 +18,6 @@
 - https://www.freecodecamp.org/news/react-interview-question-what-gets-rendered-in-the-browser-a-component-or-an-element-1b3eac777c85/
 - https://stackoverflow.com/questions/30971395/difference-between-react-component-and-react-element
 
-***
-
 React Element is what component returns; An object (untouchable in mem) that describes the DOM nodes that a component represents. 
 
 Each component instance has to keep references to its DOM node, <br />
@@ -39,9 +37,17 @@ React Elements are immutable. You cant interact with it.
 Elements are just descriptions and not the actual instances. <br />
 They don’t refer to anything on the screen when you create them.
 
-***
-
 ![](https://raw.githubusercontent.com/atabegruslan/ReactJS-Flux-Redux/master/Illustrations/Component_Elem_Inst.png)
+
+## Class vs Functional Components, when to use:
+
+- https://www.geeksforgeeks.org/differences-between-functional-components-and-class-components-in-react/
+- https://www.twilio.com/blog/react-choose-functional-components
+- https://stackoverflow.com/questions/36097965/when-to-use-es6-class-based-react-components-vs-functional-es6-react-components/36137801#36137801
+
+So functional components are simpler and seems to be the way of the future. They simply take props and render. Use class components only when you want more complex state management abilities.
+
+## Related concepts
 
 - https://reactpatterns.com/
 - https://viblo.asia/p/component-patterns-in-react-6J3ZgjvgKmB
