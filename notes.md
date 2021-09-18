@@ -81,6 +81,7 @@ They don’t refer to anything on the screen when you create them.
    - https://github.com/Ruslan-Aliyev/React-Routing#code-splitting
 - https://www.youtube.com/watch?v=t4okzJc6_Ak
 - https://www.youtube.com/watch?v=jVtxC6CKzYU
+- Time Travel Debugging: https://medium0.com/the-web-tub/time-travel-in-react-redux-apps-using-the-redux-devtools-5e94eba5e7c0
 - More to learn: react, component composition
 
 # Frameworks
