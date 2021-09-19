@@ -63,6 +63,7 @@ So functional components are simpler and seems to be the way of the future. They
 
 - https://www.javatpoint.com/react-version
 - https://stackoverflow.com/questions/33526493/react-createclass-vs-extends-component
+- https://ultimatecourses.com/blog/react-create-class-versus-component
 - https://medium.com/hackernoon/replacing-componentwillreceiveprops-with-getderivedstatefromprops-c3956f7ce607
 
 # More Theory
