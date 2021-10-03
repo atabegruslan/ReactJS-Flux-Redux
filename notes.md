@@ -119,7 +119,7 @@ So functional components are simpler and seems to be the way of the future. They
       - Demo in Vue: https://github.com/Ruslan-Aliyev/laravel_notes#graphql
       - Tutorial in React: https://www.youtube.com/playlist?list=PLillGF-RfqbZrjw48EXLdM4dsOhURCLZx
    - RxJS, good tutorial: https://www.youtube.com/watch?v=2LCo926NFLI
-   - ( Concept of push & pull: https://github.com/atabegruslan/Others/blob/master/Illustrations/js_async/js_async.md#idea-of-pull-vs-push )
+   - ( Concept of push & pull: https://github.com/atabegruslan/Others/blob/master/Illustrations/Development/js/async/js_async.md#idea-of-pull-vs-push )
 
 ## Redux Middlewares
 
