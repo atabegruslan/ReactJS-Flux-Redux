@@ -37,7 +37,7 @@ React Elements are immutable. You cant interact with it.
 Elements are just descriptions and not the actual instances. <br />
 They don’t refer to anything on the screen when you create them.
 
-![](https://raw.githubusercontent.com/atabegruslan/ReactJS-Flux-Redux/master/Illustrations/Component_Elem_Inst.png)
+![](/Illustrations/Component_Elem_Inst.png)
 
 ## Class vs Functional Components, when to use:
 
@@ -76,7 +76,7 @@ So functional components are simpler and seems to be the way of the future. They
 - https://github.com/mobxjs/mobx-react/issues/447
 - https://stackoverflow.com/questions/53464595/how-to-use-componentwillmount-in-react-hooks
 
-![](https://raw.githubusercontent.com/atabegruslan/ReactJS-Flux-Redux/master/Illustrations/React_lifecycle.png)
+![](/Illustrations/React_lifecycle.png)
 
 - https://reactjs.org/docs/context.html
 - https://www.digitalocean.com/community/tutorials/react-error-boundaries , https://www.youtube.com/watch?v=ieOhZJbLptc&list=RDCMUCCTVrRB5KpIiK6V2GGVsR1Q
@@ -119,7 +119,7 @@ So functional components are simpler and seems to be the way of the future. They
       - Demo in Vue: https://github.com/Ruslan-Aliyev/laravel_notes#graphql
       - Tutorial in React: https://www.youtube.com/playlist?list=PLillGF-RfqbZrjw48EXLdM4dsOhURCLZx
    - RxJS, good tutorial: https://www.youtube.com/watch?v=2LCo926NFLI
-   - ( Concept of push & pull: https://github.com/atabegruslan/Others/blob/master/Illustrations/Development/js/async/js_async.md#idea-of-pull-vs-push )
+   - ( Concept of push & pull: https://github.com/atabegruslan/Others/blob/master/Illustrations/Development/js/async/readme.md#idea-of-pull-vs-push )
 
 ## Redux Middlewares
 
@@ -127,7 +127,7 @@ So functional components are simpler and seems to be the way of the future. They
 - https://github.com/reduxjs/redux-thunk
 - https://redux-saga.js.org/
 
-![](https://raw.githubusercontent.com/atabegruslan/ReactJS-Flux-Redux/master/Illustrations/thunk.PNG)
+![](/Illustrations/thunk.PNG)
 
 # General Tutorials
 
@@ -149,7 +149,7 @@ So functional components are simpler and seems to be the way of the future. They
 - https://stackoverflow.com/questions/36994564/how-can-one-tell-the-version-of-react-running-at-runtime-in-the-browser
 - To stop this server process and free up the port, press Cntr + C, or find and delete the process:
 
-![](https://raw.githubusercontent.com/atabegruslan/ReactJS-Flux-Redux/master/Illustrations/Stop-webpack-dev-server.PNG)
+![](/Illustrations/Stop-webpack-dev-server.PNG)
 
 # CSS
 

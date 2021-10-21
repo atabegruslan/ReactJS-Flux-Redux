@@ -45,45 +45,45 @@ $mongo
 
 #### 1. Initializing, setting and getting state
 
-![Initializing, setting and getting state](https://raw.githubusercontent.com/atabegruslan/ReactJS-Flux-Redux/master/Illustrations/React-state.PNG "Initializing, setting and getting state")
+![Initializing, setting and getting state](/Illustrations/React-state.PNG "Initializing, setting and getting state")
 
 Whenever state changes, the React DOM re-renders.
 
 #### 2. Passing props down to children
 
-![Passing props down to children](https://raw.githubusercontent.com/atabegruslan/ReactJS-Flux-Redux/master/Illustrations/React-passing-props-down.PNG "Passing props down to children")
+![Passing props down to children](/Illustrations/React-passing-props-down.PNG "Passing props down to children")
 
 #### 3. Event
 
-![Event](https://raw.githubusercontent.com/atabegruslan/ReactJS-Flux-Redux/master/Illustrations/Event.PNG "Event")
+![Event](/Illustrations/Event.PNG "Event")
 
 ## Flux - React Basics
 
-![Flux](https://raw.githubusercontent.com/atabegruslan/ReactJS-Flux-Redux/master/Illustrations/Flux.PNG "Event")
+![Flux](/Illustrations/Flux.PNG "Event")
 
 ## Redux - React Basics
 
-![Flux to Redux](https://raw.githubusercontent.com/atabegruslan/ReactJS-Flux-Redux/master/Illustrations/redux_flux.PNG "Flux to Redux")
+![Flux to Redux](/Illustrations/redux_flux.PNG "Flux to Redux")
 
-![Redux](https://raw.githubusercontent.com/atabegruslan/ReactJS-Flux-Redux/master/Illustrations/Redux.PNG "Event")
+![Redux](/Illustrations/Redux.PNG "Event")
 
-![](https://raw.githubusercontent.com/atabegruslan/ReactJS-Flux-Redux/master/Illustrations/redux.gif)
+![](/Illustrations/redux.gif)
 
-![](https://raw.githubusercontent.com/atabegruslan/ReactJS-Flux-Redux/master/Illustrations/Redux_Simple.png)
+![](/Illustrations/Redux_Simple.png)
 
-![](https://raw.githubusercontent.com/atabegruslan/ReactJS-Flux-Redux/master/Illustrations/Redux_Intermediate.png)
+![](/Illustrations/Redux_Intermediate.png)
 
-![](https://raw.githubusercontent.com/atabegruslan/ReactJS-Flux-Redux/master/Illustrations/redux_all_together.png)
+![](/Illustrations/redux_all_together.png)
 
-![](https://raw.githubusercontent.com/atabegruslan/ReactJS-Flux-Redux/master/Illustrations/Redux_in_a_nutshell.PNG)
+![](/Illustrations/Redux_in_a_nutshell.PNG)
 
 ## MobX
 
-![](https://raw.githubusercontent.com/atabegruslan/ReactJS-Flux-Redux/master/Illustrations/mobx.png)
+![](/Illustrations/mobx.png)
 
-![](https://raw.githubusercontent.com/atabegruslan/ReactJS-Flux-Redux/master/Illustrations/mobx_2.png)
+![](/Illustrations/mobx_2.png)
 
-![](https://raw.githubusercontent.com/atabegruslan/ReactJS-Flux-Redux/master/Illustrations/redux_mobx_1.PNG)
+![](/Illustrations/redux_mobx_1.PNG)
 
 However, the MobX part of this project cannot be completed, because the React version here is too old.
 
@@ -95,7 +95,7 @@ https://github.com/atabegruslan/ReactJS-Flux-Redux/blob/master/src/mobx/js/compo
 
 `http://127.0.0.1/mobx/`
 
-To see this MobX continued in a newer version of React: https://github.com/atabegruslan/React-MobX
+To see this MobX continued in a newer version of React: https://github.com/atabegruslan/ReactJS-MobX
 
 ## References:
 
