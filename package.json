@@ -29,7 +29,7 @@
     "mobx": "^6.0.4",
     "mobx-react": "^7.0.5",
     "monk": "^3.1.2",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "popper.js": "^1.16.1",
     "react": "^0.14.10",
     "react-dom": "^0.14.10",
