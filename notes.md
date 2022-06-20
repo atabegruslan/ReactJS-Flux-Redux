@@ -77,6 +77,7 @@ So functional components are simpler and seems to be the way of the future. They
 - https://stackoverflow.com/questions/53464595/how-to-use-componentwillmount-in-react-hooks
 
 ![](/Illustrations/React_lifecycle.png)
+- https://www.youtube.com/playlist?list=PLZlA0Gpn_vH8EtggFGERCwMY5u5hOjf-h
 
 - https://reactjs.org/docs/context.html
 - https://www.digitalocean.com/community/tutorials/react-error-boundaries , https://www.youtube.com/watch?v=ieOhZJbLptc&list=RDCMUCCTVrRB5KpIiK6V2GGVsR1Q
