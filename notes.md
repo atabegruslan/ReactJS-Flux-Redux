@@ -90,7 +90,7 @@ So functional components are simpler and seems to be the way of the future. They
 ## Error Boundaries
 
 - Class component: https://www.youtube.com/watch?v=hszc3T0hdvU
-- Function component: https://www.npmjs.com/package/@filerobot/readme#react
+- Function component: https://www.npmjs.com/package/react-error-boundary
 - https://www.digitalocean.com/community/tutorials/react-error-boundaries
 - https://www.youtube.com/watch?v=ieOhZJbLptc&list=RDCMUCCTVrRB5KpIiK6V2GGVsR1Q
 
