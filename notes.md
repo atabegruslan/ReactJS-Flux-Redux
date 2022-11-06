@@ -68,25 +68,46 @@ So functional components are simpler and seems to be the way of the future. They
 
 # More Theory
 
+## Lifecycle events & Hooks
+
 - https://www.w3schools.com/REACT/react_lifecycle.asp
 - https://www.freecodecamp.org/news/how-to-understand-a-components-lifecycle-methods-in-reactjs-e1a609840630/
 - https://reactjs.org/docs/hooks-overview.html
    - https://www.freecodecamp.org/news/react-hooks-cheatsheet/amp/
 - https://www.youtube.com/watch?v=TNhaISOUy6Q <sup>Good</sup>
+- https://www.youtube.com/playlist?list=PLZlA0Gpn_vH8EtggFGERCwMY5u5hOjf-h <sup>Good</sup>
+- https://www.youtube.com/playlist?list=PL_-VfJajZj0W8-gf0g3YCCyFh-pVFMOgy
 - https://github.com/mobxjs/mobx-react/issues/447
 - https://stackoverflow.com/questions/53464595/how-to-use-componentwillmount-in-react-hooks
 
 ![](/Illustrations/React_lifecycle.png)
-- https://www.youtube.com/playlist?list=PLZlA0Gpn_vH8EtggFGERCwMY5u5hOjf-h
 
+## Content API and `useContext` hook
+
+- https://www.youtube.com/watch?v=TENin-HxvRg <sup>Good</sup>
 - https://reactjs.org/docs/context.html
-- https://www.digitalocean.com/community/tutorials/react-error-boundaries , https://www.youtube.com/watch?v=ieOhZJbLptc&list=RDCMUCCTVrRB5KpIiK6V2GGVsR1Q
-- https://reactjs.org/docs/fragments.html , https://www.youtube.com/watch?v=GtLvQ5TuM2s
-- Code Split: 
-   - https://reactjs.org/docs/code-splitting.html
-   - https://www.youtube.com/watch?v=tV9gvls8IP8
-   - https://www.youtube.com/watch?v=Ef3nvKLS4no
-   - https://github.com/Ruslan-Aliyev/React-Routing#code-splitting
+
+## Error Boundaries
+
+- Class component: https://www.youtube.com/watch?v=hszc3T0hdvU
+- Function component: https://www.npmjs.com/package/@filerobot/readme#react
+- https://www.digitalocean.com/community/tutorials/react-error-boundaries
+- https://www.youtube.com/watch?v=ieOhZJbLptc&list=RDCMUCCTVrRB5KpIiK6V2GGVsR1Q
+
+## Fragment
+
+- https://reactjs.org/docs/fragments.html
+- https://www.youtube.com/watch?v=GtLvQ5TuM2s
+
+## Code Split
+
+- https://reactjs.org/docs/code-splitting.html
+- https://www.youtube.com/watch?v=tV9gvls8IP8
+- https://www.youtube.com/watch?v=Ef3nvKLS4no
+- https://github.com/Ruslan-Aliyev/React-Routing#code-splitting
+
+## Others
+
 - https://www.youtube.com/watch?v=t4okzJc6_Ak
 - https://www.youtube.com/watch?v=jVtxC6CKzYU
 - Time Travel Debugging: https://medium0.com/the-web-tub/time-travel-in-react-redux-apps-using-the-redux-devtools-5e94eba5e7c0
