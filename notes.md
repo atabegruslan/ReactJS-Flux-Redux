@@ -179,6 +179,13 @@ So functional components are simpler and seems to be the way of the future. They
 - https://medium.com/@dmitrynozhenko/9-ways-to-implement-css-in-react-js-ccea4d543aa3
 - https://stevenwestmoreland.com/2018/01/how-to-include-bootstrap-in-your-project-with-webpack.html
 
+## Scoping styles
+
+- https://www.upbeatcode.com/react/css-scoping-in-react-everything-you-need-to-know/
+- https://stackoverflow.com/questions/47090574/how-to-make-react-css-import-component-scoped/47090832#47090832
+- https://dev.to/alserembani/react-vs-vue-how-about-some-style-1ofi
+- Comparison to Vue's `<style scoped`: https://vue-loader.vuejs.org/guide/scoped-css.html
+
 # Useful Libraries
 
 - https://www.npmjs.com/package/koa-cors
