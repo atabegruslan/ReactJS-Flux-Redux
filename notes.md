@@ -101,9 +101,9 @@ So functional components are simpler and seems to be the way of the future. They
 
 ## Code Split
 
-- https://reactjs.org/docs/code-splitting.html
-- https://www.youtube.com/watch?v=tV9gvls8IP8
+- Before understanding code split, read Lazy load first: https://www.youtube.com/watch?v=tV9gvls8IP8
 - https://www.youtube.com/watch?v=Ef3nvKLS4no
+- https://reactjs.org/docs/code-splitting.html
 - https://github.com/Ruslan-Aliyev/React-Routing#code-splitting
 
 ## Others
