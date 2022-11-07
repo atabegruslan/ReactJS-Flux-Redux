@@ -149,18 +149,7 @@ https://www.youtube.com/watch?v=5LrDIWkK_Bc&list=PLZlA0Gpn_vH8EtggFGERCwMY5u5hOj
 ## Error Boundaries
 
 <table>
-<tr>
-<td>
-<b>Class component</b>
 
-https://www.youtube.com/watch?v=hszc3T0hdvU
-</td>
-<td>
-<b>Function component</b>
-
-https://www.npmjs.com/package/react-error-boundary
-</td>
-</tr>
 <tr>
 <td>
 ```
