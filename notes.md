@@ -164,61 +164,12 @@ https://www.npmjs.com/package/react-error-boundary
 <tr>
 <td>
 ```
-class ErrorBoundary extends React.Component {
-	constructor(props) {
-		super(props);
-		state = { hasError: false };
-	}
-
-	static getDerivedStateFromError(error) {
-		return { hasError: true };
-	}
-
-	componentDidCatch(error, errorInfo) {
-		errorService.log({ error, errorInfo });
-	}
-
-	render() {
-		if (this.state.hasError) {
-			return <h1>Oops, we done goofed up</h1>;
-		}
-		return this.props.children;
-	}
-}
-```
-```
-ReactDOM.render(
-	<ErrorBoundary>
-		{/* This App have problems */}
-		<App /> 
-	</ErrorBoundary>,
-	document.getElementById('root')
-)
+// to complete
 ```
 </td>
 <td>
 ```
-import {ErrorBoundary} from 'react-error-boundary'
-
-function ErrorFallback({error, resetErrorBoundary}) {
-	return (
-		<div role="alert">
-			<p>Something went wrong:</p>
-			<pre>{error.message}</pre>
-			<button onClick={resetErrorBoundary}>Try again</button>
-		</div>
-	)
-}
-
-const ui = (
-	<ErrorBoundary FallbackComponent={ErrorFallback}
-	onReset={() => {
-		// reset the state of your app 
-		// so the error doesn't happen again
-	}}>
-		<ComponentThatMayError />
-	</ErrorBoundary>
-)
+// to complete
 ```
 </td>
 </tr>
