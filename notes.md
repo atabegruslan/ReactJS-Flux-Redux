@@ -104,7 +104,7 @@ https://www.youtube.com/watch?v=hszc3T0hdvU
 Function component
 
 https://www.npmjs.com/package/react-error-boundary
-<pre>
+```
 import {ErrorBoundary} from 'react-error-boundary'
 
 function ErrorFallback({error, resetErrorBoundary}) {
@@ -127,7 +127,7 @@ const ui = (
     <ComponentThatMayError />
   </ErrorBoundary>
 )
-</pre>
+```
 </td>
 </tr>
 </table>
