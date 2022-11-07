@@ -85,7 +85,7 @@ So functional components are simpler and seems to be the way of the future. They
 
 ![](/Illustrations/React_lifecycle.png)
 
-## Content API and `useContext` hook
+## Context API and `useContext` hook
 
 - https://www.youtube.com/watch?v=TENin-HxvRg <sup>Good</sup>
 - https://reactjs.org/docs/context.html
