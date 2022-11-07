@@ -105,7 +105,6 @@ Function component
 
 https://www.npmjs.com/package/react-error-boundary
 <pre>
-<code>
 import {ErrorBoundary} from 'react-error-boundary'
 
 function ErrorFallback({error, resetErrorBoundary}) {
@@ -128,7 +127,6 @@ const ui = (
     <ComponentThatMayError />
   </ErrorBoundary>
 )
-</code>
 </pre>
 </td>
 </tr>
