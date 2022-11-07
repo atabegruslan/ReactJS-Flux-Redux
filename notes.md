@@ -121,6 +121,8 @@ https://www.youtube.com/watch?v=t2ypzz6gJm0&list=PLZlA0Gpn_vH8EtggFGERCwMY5u5hOj
 <tr>
 <td>
 <b>Context API</b>
+	
+For class components
 
 https://www.youtube.com/watch?v=TENin-HxvRg
    
@@ -129,10 +131,17 @@ https://reactjs.org/docs/context.html
 <td>
 <b>useContext hook</b>
 
+For function components
+
 https://www.youtube.com/watch?v=5LrDIWkK_Bc&list=PLZlA0Gpn_vH8EtggFGERCwMY5u5hOjf-h
 </td>
 </tr>
 <tr>
+<td>
+<pre>
+
+</pre>
+</td>
 <td>
 <pre>
 //==App.js========================================
@@ -178,11 +187,6 @@ const Header = () =&gt; {
 }
 export default Header;
 </pre>
-</td>
-<td>
-```
-// to complete
-```
 </td>
 </tr>
 </table>
