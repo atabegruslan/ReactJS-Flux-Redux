@@ -187,7 +187,7 @@ ReactDOM.render(
 		{/* This App have problems */}
 		&lt;App /&gt; 
 	&lt;/ErrorBoundary&gt;,
-	document.getElementById(&lsquo;root&lsquo;)
+	document.getElementById('root')
 )
 </pre>
 </td>
