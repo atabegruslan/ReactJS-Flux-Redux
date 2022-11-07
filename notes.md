@@ -163,8 +163,7 @@ https://www.npmjs.com/package/react-error-boundary
 </tr>
 <tr>
 <td>
-<pre>
-<code>
+```
 class ErrorBoundary extends React.Component {
 	constructor(props) {
 		super(props);
@@ -190,12 +189,10 @@ ReactDOM.render(
 	</ErrorBoundary>,
 	document.getElementById('root')
 )
-</code>
-</pre>
+```
 </td>
 <td>
-<pre>
-<code>
+```
 import {ErrorBoundary} from 'react-error-boundary'
 
 function ErrorFallback({error, resetErrorBoundary}) {
@@ -217,8 +214,7 @@ const ui = (
 		<ComponentThatMayError />
 	</ErrorBoundary>
 )
-</code>
-</pre>
+```
 </td>
 </tr>
 </table>
