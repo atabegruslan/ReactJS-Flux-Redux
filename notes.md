@@ -94,6 +94,8 @@ So functional components are simpler and seems to be the way of the future. They
 <b>Refs</b>
 
 https://www.youtube.com/watch?v=t4okzJc6_Ak
+
+https://www.youtube.com/watch?v=sAj6tdVS2cA
 </td>
 <td>
 <b>useRef hook</b>
