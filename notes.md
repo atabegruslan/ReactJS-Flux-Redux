@@ -185,9 +185,11 @@ class ErrorBoundary extends React.Component {
 		return this.props.children;
 	}
 }
-
+```
+```
 ReactDOM.render(
 	<ErrorBoundary>
+		{/* This App have problems */}
 		<App /> 
 	</ErrorBoundary>,
 	document.getElementById('root')
