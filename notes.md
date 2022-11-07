@@ -92,8 +92,48 @@ So functional components are simpler and seems to be the way of the future. They
 
 ## Error Boundaries
 
-- Class component: https://www.youtube.com/watch?v=hszc3T0hdvU
-- Function component: https://www.npmjs.com/package/react-error-boundary
+<table>
+<tr>
+<td>
+Class component
+
+https://www.youtube.com/watch?v=hszc3T0hdvU
+</td>
+
+<td>
+Function component
+
+https://www.npmjs.com/package/react-error-boundary
+<pre>
+<code>
+import {ErrorBoundary} from 'react-error-boundary'
+
+function ErrorFallback({error, resetErrorBoundary}) {
+  return (
+    <div role="alert">
+      <p>Something went wrong:</p>
+      <pre>{error.message}</pre>
+      <button onClick={resetErrorBoundary}>Try again</button>
+    </div>
+  )
+}
+
+const ui = (
+  <ErrorBoundary
+    FallbackComponent={ErrorFallback}
+    onReset={() => {
+      // reset the state of your app so the error doesn't happen again
+    }}
+  >
+    <ComponentThatMayError />
+  </ErrorBoundary>
+)
+</code>
+</pre>
+</td>
+</tr>
+</table>
+
 - https://www.digitalocean.com/community/tutorials/react-error-boundaries
 - https://www.youtube.com/watch?v=ieOhZJbLptc&list=RDCMUCCTVrRB5KpIiK6V2GGVsR1Q
 
