@@ -150,16 +150,28 @@ https://www.youtube.com/watch?v=5LrDIWkK_Bc&list=PLZlA0Gpn_vH8EtggFGERCwMY5u5hOj
 
 <table>
 <tr>
-   <td>aa</td>
+<td>
+<b>Class component</b>
+
+https://www.youtube.com/watch?v=hszc3T0hdvU
+</td>
+<td>
+<b>Function component</b>
+
+https://www.npmjs.com/package/react-error-boundary
+</td>
 </tr>
 <tr>
-   <td>bb</td>
-</tr>
-<tr>
-   <td>cc</td>
-</tr>
-<tr>
-   <td>dd</td>
+<td>
+```
+//to
+```
+</td>
+<td>
+```
+//to
+```
+</td>
 </tr>
 </table>
 
