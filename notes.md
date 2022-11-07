@@ -85,20 +85,84 @@ So functional components are simpler and seems to be the way of the future. They
 
 ![](/Illustrations/React_lifecycle.png)
 
+
+## Refs and `useRef` hook
+
+<table>
+<tr>
+<td>
+<b>Refs</b>
+
+https://www.youtube.com/watch?v=t4okzJc6_Ak
+</td>
+<td>
+<b>`useRef` hook</b>
+
+https://www.youtube.com/watch?v=t2ypzz6gJm0&list=PLZlA0Gpn_vH8EtggFGERCwMY5u5hOjf-h
+</td>
+</tr>
+<tr>
+<td>
+```
+
+```
+</td>
+<td>
+```
+
+```
+</td>
+</tr>
+</table>
+
 ## Context API and `useContext` hook
 
-- https://www.youtube.com/watch?v=TENin-HxvRg <sup>Good</sup>
-- https://reactjs.org/docs/context.html
+<table>
+<tr>
+<td>
+<b>Context API</b>
+
+https://www.youtube.com/watch?v=TENin-HxvRg
+   
+https://reactjs.org/docs/context.html
+</td>
+<td>
+<b>`useContext` hook</b>
+
+https://www.youtube.com/watch?v=5LrDIWkK_Bc&list=PLZlA0Gpn_vH8EtggFGERCwMY5u5hOjf-h
+</td>
+</tr>
+<tr>
+<td>
+```
+
+```
+</td>
+<td>
+```
+
+```
+</td>
+</tr>
+</table>
 
 ## Error Boundaries
 
 <table>
 <tr>
 <td>
-Class component
+<b>Class component</b>
 
 https://www.youtube.com/watch?v=hszc3T0hdvU
-   
+</td>
+<td>
+<b>Function component</b>
+
+https://www.npmjs.com/package/react-error-boundary
+</td>
+</tr>
+<tr>
+<td>
 ```
 class ErrorBoundary extends React.Component {
     constructor(props) {
@@ -130,11 +194,7 @@ ReactDOM.render(
 )
 ```
 </td>
-
 <td>
-Function component
-
-https://www.npmjs.com/package/react-error-boundary
 ```
 import {ErrorBoundary} from 'react-error-boundary'
 
@@ -178,12 +238,11 @@ const ui = (
 - https://reactjs.org/docs/code-splitting.html
 - https://github.com/Ruslan-Aliyev/React-Routing#code-splitting
 
-## Others
+## Debugging
 
-- https://www.youtube.com/watch?v=t4okzJc6_Ak
-- https://www.youtube.com/watch?v=jVtxC6CKzYU
 - Time Travel Debugging: https://medium0.com/the-web-tub/time-travel-in-react-redux-apps-using-the-redux-devtools-5e94eba5e7c0
-- More to learn: react, component composition
+
+## Component composition
 
 # Frameworks
 
