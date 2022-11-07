@@ -134,9 +134,50 @@ https://www.youtube.com/watch?v=5LrDIWkK_Bc&list=PLZlA0Gpn_vH8EtggFGERCwMY5u5hOj
 </tr>
 <tr>
 <td>
-```
-// to complete
-```
+<pre>
+//==App.js========================================
+import React from 'react';
+import PageContextProvider from './PageContextProvider';
+import Header from './Header';
+function App() {
+    return (
+        &lt;div className=&quot;App&quot;&gt;
+            &lt;PageContextProvider&gt;
+                &lt;Header /&gt;
+            &lt;/PageContextProvider&gt;
+        &lt;/div&gt;
+    );
+}
+export default App;
+//==PageContextProvider.js=========================
+import React, { useState, useEffect, createContext } from 'react';
+export const PageContext = createContext();
+const PageContextProvider = (props) =&gt; {
+    const [user, setUser] = useState({
+        'name': 'harry potter'
+    });
+    return (
+        &lt;PageContext.Provider value={{ 
+            user: user,
+        }}&gt;
+        	{props.children}
+        &lt;/PageContext.Provider&gt;
+    );
+}
+export default PageContextProvider;
+//==Header.js=====================================
+import React, { useContext } from 'react';
+import { PageContext } from './PageContextProvider';
+const Header = () =&gt; {
+    const { user } = useContext(PageContext);
+    return (
+        &lt;div className=&quot;header&quot;&gt;
+        	{user.name}
+        &lt;/div&gt;
+    );
+}
+export default Header;
+</pre>
 </td>
 <td>
 ```
