@@ -96,7 +96,7 @@ So functional components are simpler and seems to be the way of the future. They
 https://www.youtube.com/watch?v=t4okzJc6_Ak
 </td>
 <td>
-<b>`useRef` hook</b>
+<b>useRef hook</b>
 
 https://www.youtube.com/watch?v=t2ypzz6gJm0&list=PLZlA0Gpn_vH8EtggFGERCwMY5u5hOjf-h
 </td>
@@ -104,12 +104,12 @@ https://www.youtube.com/watch?v=t2ypzz6gJm0&list=PLZlA0Gpn_vH8EtggFGERCwMY5u5hOj
 <tr>
 <td>
 ```
-
+// to complete
 ```
 </td>
 <td>
 ```
-
+// to complete
 ```
 </td>
 </tr>
@@ -127,7 +127,7 @@ https://www.youtube.com/watch?v=TENin-HxvRg
 https://reactjs.org/docs/context.html
 </td>
 <td>
-<b>`useContext` hook</b>
+<b>useContext hook</b>
 
 https://www.youtube.com/watch?v=5LrDIWkK_Bc&list=PLZlA0Gpn_vH8EtggFGERCwMY5u5hOjf-h
 </td>
@@ -135,12 +135,12 @@ https://www.youtube.com/watch?v=5LrDIWkK_Bc&list=PLZlA0Gpn_vH8EtggFGERCwMY5u5hOj
 <tr>
 <td>
 ```
-
+// to complete
 ```
 </td>
 <td>
 ```
-
+// to complete
 ```
 </td>
 </tr>
