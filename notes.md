@@ -75,6 +75,7 @@ So functional components are simpler and seems to be the way of the future. They
 - https://reactjs.org/docs/hooks-overview.html
    - https://www.freecodecamp.org/news/react-hooks-cheatsheet/amp/
 - https://www.youtube.com/watch?v=TNhaISOUy6Q <sup>Good</sup>
+- https://reactjs.org/docs/hooks-reference.html
 - https://www.youtube.com/playlist?list=PLZlA0Gpn_vH8EtggFGERCwMY5u5hOjf-h <sup>Good</sup>
    - `useMemo`: https://www.youtube.com/watch?v=THL1OPn72vo
    - `useCallback`: https://www.youtube.com/watch?v=IL82CzlaCys
