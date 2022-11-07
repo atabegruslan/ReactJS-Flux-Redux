@@ -192,9 +192,27 @@ ReactDOM.render(
 </pre>
 </td>
 <td>
-```
-// to complete
-```
+<pre>
+import {ErrorBoundary} from 'react-error-boundary'
+function ErrorFallback({error, resetErrorBoundary}) {
+	return (
+		&lt;div role=&quot;alert&quot;&gt;
+			&lt;p&gt;Something went wrong:&lt;/p&gt;
+			&lt;pre&gt;{error.message}&lt;/pre&gt;
+			&lt;button onClick={resetErrorBoundary}&gt;Try again&lt;/button&gt;
+		&lt;/div&gt;
+	)
+}
+const ui = (
+	&lt;ErrorBoundary FallbackComponent={ErrorFallback}
+	onReset={() =&gt; {
+		// reset the state of your app 
+		// so the error doesn't happen again
+	}}&gt;
+		&lt;ComponentThatMayError /&gt;
+	&lt;/ErrorBoundary&gt;
+)
+</pre>
 </td>
 </tr>
 </table>
