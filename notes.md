@@ -163,9 +163,37 @@ https://www.npmjs.com/package/react-error-boundary
 </tr>
 <tr>
 <td>
-```
-// to complete
-```
+<pre>
+class ErrorBoundary extends React.Component {
+	constructor(props) {
+		super(props);
+		state = { hasError: false };
+	}
+
+	static getDerivedStateFromError(error) {
+		return { hasError: true };
+	}
+
+	componentDidCatch(error, errorInfo) {
+		errorService.log({ error, errorInfo });
+	}
+
+	render() {
+		if (this.state.hasError) {
+			return &lt;h1&gt;Oops, we done goofed up&lt;/h1&gt;;
+		}
+		return this.props.children;
+	}
+}
+
+ReactDOM.render(
+	&lt;ErrorBoundary&gt;
+		{/* This App have problems */}
+		&lt;App /&gt; 
+	&lt;/ErrorBoundary&gt;,
+	document.getElementById(&lsquo;root&lsquo;)
+)
+</pre>
 </td>
 <td>
 ```
