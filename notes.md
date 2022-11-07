@@ -98,6 +98,37 @@ So functional components are simpler and seems to be the way of the future. They
 Class component
 
 https://www.youtube.com/watch?v=hszc3T0hdvU
+   
+```
+class ErrorBoundary extends React.Component {
+    constructor(props) {
+        super(props);
+        state = { hasError: false };
+    }
+   
+    static getDerivedStateFromError(error) {
+        return { hasError: true };
+    }
+   
+    componentDidCatch(error, errorInfo) {
+        errorService.log({ error, errorInfo });
+    }
+   
+    render() {
+        if (this.state.hasError) {
+            return <h1>Oops, we done goofed up</h1>;
+        }
+        return this.props.children;
+    }  
+}
+
+ReactDOM.render(
+    <ErrorBoundary>
+        <App /> {/* This App have problems */}
+    </ErrorBoundary>,
+    document.getElementById('root')
+)
+```
 </td>
 
 <td>
