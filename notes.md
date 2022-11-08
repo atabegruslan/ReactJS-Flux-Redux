@@ -47,6 +47,8 @@ They don’t refer to anything on the screen when you create them.
 
 So functional components are simpler and seems to be the way of the future. They simply take props and render. Use class components only when you want more complex state management abilities.
 
+For conversion between class <-> functional components, here's how: https://jsfiddle.net/atabegaslan/uspx4mLy/
+
 ## Related concepts
 
 - https://reactpatterns.com/
@@ -65,6 +67,8 @@ So functional components are simpler and seems to be the way of the future. They
 - https://stackoverflow.com/questions/33526493/react-createclass-vs-extends-component
 - https://ultimatecourses.com/blog/react-create-class-versus-component
 - https://medium.com/hackernoon/replacing-componentwillreceiveprops-with-getderivedstatefromprops-c3956f7ce607
+- v17 -> v18: https://reactjs.org/blog/2022/03/08/react-18-upgrade-guide.html
+- v18 -> v17: https://dev.to/lowla/create-react-app-with-a-previous-version-of-react-4g03
 
 # More Theory
 
@@ -85,7 +89,6 @@ So functional components are simpler and seems to be the way of the future. They
 
 ![](/Illustrations/React_lifecycle.png)
 
-
 ## Refs and `useRef` hook
 
 <table>
@@ -94,8 +97,6 @@ So functional components are simpler and seems to be the way of the future. They
 <b>Refs</b>
 
 https://www.youtube.com/watch?v=t4okzJc6_Ak
-
-https://www.youtube.com/watch?v=sAj6tdVS2cA
 </td>
 <td>
 <b>useRef hook</b>
@@ -116,6 +117,16 @@ https://www.youtube.com/watch?v=t2ypzz6gJm0&list=PLZlA0Gpn_vH8EtggFGERCwMY5u5hOj
 </td>
 </tr>
 </table>
+
+## `forwardRef`
+
+Passing ref to child 
+
+https://www.youtube.com/watch?v=RLWniwmfdq4
+
+## Ref in regards to reactivity
+
+https://www.youtube.com/watch?v=sAj6tdVS2cA
 
 ## Context API and `useContext` hook
 
