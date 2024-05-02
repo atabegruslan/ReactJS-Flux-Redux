@@ -132,7 +132,7 @@ https://www.youtube.com/watch?v=sAj6tdVS2cA
 
 ## `useReducer`
 
-
+![useReducer](https://github.com/atabegruslan/ReactJS-Flux-Redux/assets/20809372/27359fb3-040b-405d-8725-9d4723ab32af)
 
 ## Context API and `useContext` hook
 
@@ -364,6 +364,8 @@ const ui = (
 - https://www.youtube.com/watch?v=GtLvQ5TuM2s
 
 ## Code Split
+
+![react router code splitting](https://github.com/atabegruslan/ReactJS-Flux-Redux/assets/20809372/81f6104f-3430-49e3-84d1-16ddf691248f)
 
 - Before understanding code split, read Lazy load first: https://www.youtube.com/watch?v=tV9gvls8IP8
 - https://www.youtube.com/watch?v=Ef3nvKLS4no
