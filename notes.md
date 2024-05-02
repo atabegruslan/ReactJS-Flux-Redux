@@ -77,12 +77,14 @@ For conversion between class <-> functional components, here's how: https://jsfi
 - https://www.w3schools.com/REACT/react_lifecycle.asp
 - https://www.freecodecamp.org/news/how-to-understand-a-components-lifecycle-methods-in-reactjs-e1a609840630/
 - https://reactjs.org/docs/hooks-overview.html
-   - https://www.freecodecamp.org/news/react-hooks-cheatsheet/amp/
+    - https://www.freecodecamp.org/news/react-hooks-cheatsheet/amp/
 - https://www.youtube.com/watch?v=TNhaISOUy6Q <sup>Good</sup>
+- https://www.youtube.com/watch?v=LlvBzyy-558
 - https://reactjs.org/docs/hooks-reference.html
 - https://www.youtube.com/playlist?list=PLZlA0Gpn_vH8EtggFGERCwMY5u5hOjf-h <sup>Good</sup>
-   - `useMemo`: https://www.youtube.com/watch?v=THL1OPn72vo
-   - `useCallback`: https://www.youtube.com/watch?v=IL82CzlaCys
+    - `useEffect` common pitfalls: https://www.youtube.com/watch?v=QQYeipc_cik
+    - `useMemo`: https://www.youtube.com/watch?v=THL1OPn72vo
+    - `useCallback`: https://www.youtube.com/watch?v=IL82CzlaCys
 - https://www.youtube.com/playlist?list=PL_-VfJajZj0W8-gf0g3YCCyFh-pVFMOgy
 - https://github.com/mobxjs/mobx-react/issues/447
 - https://stackoverflow.com/questions/53464595/how-to-use-componentwillmount-in-react-hooks
@@ -128,7 +130,13 @@ https://www.youtube.com/watch?v=RLWniwmfdq4
 
 https://www.youtube.com/watch?v=sAj6tdVS2cA
 
+## `useReducer`
+
+
+
 ## Context API and `useContext` hook
+
+The related Provider pattern example: https://github.com/Ruslan-Aliyev/ReactJS_ProviderPattern
 
 <table>
 <tr>
@@ -142,7 +150,7 @@ https://www.youtube.com/watch?v=TENin-HxvRg
 https://reactjs.org/docs/context.html
 </td>
 <td>
-<b>useContext hook</b>
+<b>`useContext` hook</b>
 
 For function components
 
@@ -242,6 +250,40 @@ export default Header;
 </tr>
 </table>
 
+## Custom Hooks & `useDebugValue`
+
+https://www.w3schools.com/react/react_customhooks.asp
+
+`useFetch.js`
+```
+import { useState, useEffect } from "react";
+
+const useFetch = (url) => {
+    const [data, setData] = useState(null);
+
+    useEffect(() => {
+    fetch(url)
+        .then((res) => res.json())
+        .then((data) => setData(data));
+    }, [url]);
+
+    useDebugValue(data ?? 'loading...'); // useDebugValue adds a label to this custom hook, which can be seen in the React dev tools console
+
+    return [data];
+};
+
+export default useFetch;
+```
+
+`index.js`
+```
+import ReactDOM from "react-dom/client";
+import useFetch from "./useFetch";
+
+const Home = () => {
+    const [data] = useFetch("https://jsonplaceholder.typicode.com/todos");
+```
+
 ## Error Boundaries
 
 <table>
@@ -327,6 +369,8 @@ const ui = (
 - https://www.youtube.com/watch?v=Ef3nvKLS4no
 - https://reactjs.org/docs/code-splitting.html
 - https://github.com/Ruslan-Aliyev/React-Routing#code-splitting
+- https://www.youtube.com/watch?v=B36pSPMSzZI
+- https://www.youtube.com/watch?v=nks5rQEZsQg
 
 ## Debugging
 
