@@ -458,9 +458,9 @@ const ui = (
 
 # Webpack
 
+- https://github.com/atabegruslan/Others/blob/master/Development/php_js_knowhows.md#webpack
 - https://stackoverflow.com/questions/43002099/rules-vs-loaders-in-webpack-whats-the-difference
 - https://webpack.js.org/configuration/
-- https://webpack.js.org/loaders/babel-loader/
 
 # Others
 
