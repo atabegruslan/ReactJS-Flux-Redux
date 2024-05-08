@@ -80,18 +80,53 @@ For conversion between class <-> functional components, here's how: https://jsfi
     - https://www.freecodecamp.org/news/react-hooks-cheatsheet/amp/
 - https://www.youtube.com/watch?v=TNhaISOUy6Q <sup>Good</sup>
 - https://www.youtube.com/watch?v=LlvBzyy-558
-- https://reactjs.org/docs/hooks-reference.html
+- https://reactjs.org/docs/hooks-reference.html ( https://legacy.reactjs.org/docs/hooks-reference.html ) <sup>Old</sup>
+    - https://react.dev/reference/react
+- https://www.youtube.com/watch?v=LOH1l-MP_9k <sup>Good</sup>
+- React 19 hooks: https://www.youtube.com/watch?v=2NPIYnY3ilo
+    - https://marmelab.com/blog/2024/01/23/react-19-new-hooks.html
 - https://www.youtube.com/playlist?list=PLZlA0Gpn_vH8EtggFGERCwMY5u5hOjf-h <sup>Good</sup>
-    - `useEffect` common pitfalls: https://www.youtube.com/watch?v=QQYeipc_cik
-    - `useMemo`: https://www.youtube.com/watch?v=THL1OPn72vo
-    - `useCallback`: https://www.youtube.com/watch?v=IL82CzlaCys
 - https://www.youtube.com/playlist?list=PL_-VfJajZj0W8-gf0g3YCCyFh-pVFMOgy
 - https://github.com/mobxjs/mobx-react/issues/447
 - https://stackoverflow.com/questions/53464595/how-to-use-componentwillmount-in-react-hooks
 
 ![](/Illustrations/React_lifecycle.png)
 
-## Refs and `useRef` hook
+### The Hooks
+
+#### `useState`
+
+Only use state if:
+- Cannot be computed on each render, and,
+- No place else (eg browser storage) have that state, and,
+- Does not need to be rendered
+- Value isn't a derived value. (Derived value is eg: Formatted date from date)
+
+#### `useEffect`
+
+Don't overuse this. Stay away from `useEffect` by: 
+- Derive value in each render
+- Respond to events with event handlers whenever you can
+- Fetch with a `react-query` or one of those other libraries specifically for fetching.
+
+
+Common pitfalls: https://www.youtube.com/watch?v=QQYeipc_cik
+
+#### `useMemo`
+
+Cache the result of expensive computations and won't recompute unless change
+
+https://www.youtube.com/watch?v=THL1OPn72vo
+
+#### `useCallback`
+
+Cache functions
+
+https://www.youtube.com/watch?v=IL82CzlaCys
+
+Note: 
+
+#### Refs
 
 <table>
 <tr>
@@ -101,16 +136,14 @@ For conversion between class <-> functional components, here's how: https://jsfi
 https://www.youtube.com/watch?v=t4okzJc6_Ak
 </td>
 <td>
-<b>useRef hook</b>
+<b>`useRef` hook</b>
 
 https://www.youtube.com/watch?v=t2ypzz6gJm0&list=PLZlA0Gpn_vH8EtggFGERCwMY5u5hOjf-h
 </td>
 </tr>
 <tr>
 <td>
-```
-// to complete
-```
+![](/Illustrations/refs.jpg)
 </td>
 <td>
 ```
@@ -120,23 +153,21 @@ https://www.youtube.com/watch?v=t2ypzz6gJm0&list=PLZlA0Gpn_vH8EtggFGERCwMY5u5hOj
 </tr>
 </table>
 
-## `forwardRef`
+`forwardRef`
 
 Passing ref to child 
 
 https://www.youtube.com/watch?v=RLWniwmfdq4
 
-## Ref in regards to reactivity
+![](/Illustrations/forwardRef.png)
 
-https://www.youtube.com/watch?v=sAj6tdVS2cA
+#### `useReducer`
 
-## `useReducer`
+![](https://github.com/atabegruslan/ReactJS-Flux-Redux/assets/20809372/27359fb3-040b-405d-8725-9d4723ab32af)
 
-![useReducer](https://github.com/atabegruslan/ReactJS-Flux-Redux/assets/20809372/27359fb3-040b-405d-8725-9d4723ab32af)
+#### `useContext`
 
-## Context API and `useContext` hook
-
-The related Provider pattern example: https://github.com/Ruslan-Aliyev/ReactJS_ProviderPattern
+The related **Provider Pattern** example: https://github.com/Ruslan-Aliyev/ReactJS_ProviderPattern
 
 <table>
 <tr>
@@ -250,7 +281,11 @@ export default Header;
 </tr>
 </table>
 
-## Custom Hooks & `useDebugValue`
+So in summary:
+
+![](/Illustrations/react_context.png)
+
+#### Custom Hooks & `useDebugValue`
 
 https://www.w3schools.com/react/react_customhooks.asp
 
@@ -283,6 +318,38 @@ import useFetch from "./useFetch";
 const Home = () => {
     const [data] = useFetch("https://jsonplaceholder.typicode.com/todos");
 ```
+
+#### Additional Hooks
+
+##### Better hooks for fetching (better than `useState` & `useEffect`):
+
+- `useQuery`: https://www.youtube.com/watch?v=vxkbf5QMA2g
+
+![](/Illustrations/react-query.png)
+
+- Tanstack `useQuery`: https://www.youtube.com/watch?v=AlkDbnbv7dk
+- SWR: https://swr.vercel.app/
+- The new React 19's `use` hook
+
+![](/Illustrations/react_use_for_fetch.png)
+
+##### React Router's or Next.js's `usePathname`
+
+`usePathname()` returns the same thing as `window.location.pathname`
+
+## React 19
+
+### Simpler `forwardRef`
+
+![](/Illustrations/react_forwardRef-then_and_now_19.png)
+
+### Simpler context retrieval using `use` hook
+
+![](/Illustrations/react_context-then_and_now_19.png)
+
+## Portal
+
+![](/Illustrations/react_portals.png)
 
 ## Error Boundaries
 
