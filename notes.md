@@ -109,8 +109,9 @@ Don't overuse this. Stay away from `useEffect` by:
 - Respond to events with event handlers whenever you can
 - Fetch with a `react-query` or one of those other libraries specifically for fetching.
 
-
-Common pitfalls: https://www.youtube.com/watch?v=QQYeipc_cik
+Common pitfalls: 
+- https://www.youtube.com/watch?v=QQYeipc_cik
+- https://www.youtube.com/watch?v=-yIsQPp31L0
 
 #### `useMemo`
 
@@ -124,7 +125,7 @@ Cache functions
 
 https://www.youtube.com/watch?v=IL82CzlaCys
 
-Note: 
+Note: {// to complete}
 
 #### Refs
 
@@ -160,6 +161,12 @@ Passing ref to child
 https://www.youtube.com/watch?v=RLWniwmfdq4
 
 ![](/Illustrations/forwardRef.png)
+
+#### `useImperativeHandle`
+
+To let parent control a functionality of child
+
+![](/Illustrations/useImperativeHandle.jpg)
 
 #### `useReducer`
 
@@ -285,6 +292,16 @@ So in summary:
 
 ![](/Illustrations/react_context.png)
 
+#### `useTransition` & `useDeferredValue` for slow operations
+
+![](/Illustrations/slow_useTransition.jpg)
+
+![](/Illustrations/slow_useDeferredValue.jpg)
+
+#### `useId`
+
+![](/Illustrations/useId.jpg)
+
 #### Custom Hooks & `useDebugValue`
 
 https://www.w3schools.com/react/react_customhooks.asp
@@ -343,9 +360,39 @@ const Home = () => {
 
 ![](/Illustrations/react_forwardRef-then_and_now_19.png)
 
-### Simpler context retrieval using `use` hook
+### `use`
+
+![](/Illustrations/use_hook.jpg)
+
+#### Simpler context retrieval using `use` hook
 
 ![](/Illustrations/react_context-then_and_now_19.png)
+
+### `useFormStatus`
+
+Example: To prevent the form's submit button being repeatedly pressed during submission
+
+![](/Illustrations/useFormStatus0.jpg)
+
+![](/Illustrations/useFormStatus1.jpg)
+
+### `useFormState`
+
+![](/Illustrations/useFormState0.jpg)
+
+![](/Illustrations/useFormState1.jpg)
+
+![](/Illustrations/useFormState2_counter.jpg)
+
+![](/Illustrations/useFormState3_cart.jpg)
+
+### Optimistic update using `useOptimistic`
+
+Example: After you send a message on a chat messenger. It will tell show you that the message has already been sent (for good user experience). Then when the message has actually been delivered, then it updates the message's status to 'delivered'.
+
+![](/Illustrations/useOptimistic1.jpg)
+
+![](/Illustrations/useOptimistic2.jpg)
 
 ## Portal
 
